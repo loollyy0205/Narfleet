@@ -1,0 +1,123 @@
+.side-content{
+    width: 434px;
+    margin-top: 85px;
+}
+
+.gallery-container img{
+    margin: 0 !important;
+}
+
+.qoute-container{
+    height: 592px;
+    background-color: #0A505F;
+    border-radius: 5px 250px 5px 5px;
+}
+
+.qoute-content{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.2;
+    padding: 102px 93px 134px 83px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.qoute-author{
+    text-align: center;
+    margin-top: -95px;
+    font-size: 20px;
+}
+
+.qoute-author p:nth-child(2){
+    font-size: 15px;
+    margin-top: 1px;
+}
+
+.gallery-container{
+    margin-top: 40px;
+    height: 561px;
+    overflow: hidden;
+}
+
+.gallery-content{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+    overflow-x: hidden;
+}
+
+.gallery-container img{
+    width: 434px;
+    height: 244px;
+    object-fit: cover;
+}
+
+.gallery-container .image:nth-child(n+2){
+    margin-top: 12px !important;
+}
+
+.radius-5{
+    border-radius: 5px;
+}
+
+
+.image {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image__img {
+    display: block;
+    width: 100%;
+  }
+  
+  .image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 434px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    opacity: 0;
+    transition: opacity 0.25s;
+  }
+  
+  .image__overlay--blur {
+    backdrop-filter: blur(5px);
+  }
+  
+  .image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+  }
+  
+  .image__overlay:hover {
+    opacity: 1;
+  }
+  
+  .image__overlay:hover > * {
+    transform: translateY(0);
+  }
+  
+  .image__title {
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+@media (min-width: 2560px){
+  .side-content{
+    margin-top: 145px;
+  }
+
+  .gallery-container{
+    height: 500px;
+  }
+}

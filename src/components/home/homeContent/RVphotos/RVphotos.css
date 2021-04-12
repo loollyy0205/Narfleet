@@ -1,0 +1,48 @@
+.RVphotos-container{
+    margin-left: 600px;
+    margin-right: 80px;
+    width: 989px;
+    top: 550px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-overflow{
+    border-radius: 50%;
+    height: 301px;
+    width: 301px;
+    overflow: hidden;
+}
+
+.RVphotos-container img{
+    transition: transform .5s ease;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.RVphotos-container img:hover{
+    transform: scale(1.1);
+  }
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container p{
+    color: white;
+}
+
+.img-subcontent{
+    margin-top: 30px;
+}
+
+p:nth-child(3){
+    margin-top: 2px;
+}

@@ -1,0 +1,21 @@
+.homecontent-center-box{
+    display: grid;
+    justify-content: center;
+}
+
+.homeContent-container{
+    /* margin: 0 115px; */
+    width: 1690px;
+}
+
+.row-content{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* @media (min-width: 2560px) {
+    .homecontent-center-box{
+        margin-top: 50px;
+    }
+} */
