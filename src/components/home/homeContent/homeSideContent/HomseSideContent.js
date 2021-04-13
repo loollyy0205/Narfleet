@@ -9,9 +9,9 @@ const HomseSideContent = () => {
         <div className='side-content'>
             <div className='qoute-container'>
                 <p className="qoute-content">“ This is a big leap for Filipinos, for the appreciation of Science. ”</p>
-                <div className="qoute-author Avenir">
-                    <p>- Dr. Deo Florence Onda</p>
-                    <p>Deputy Director of Research, The UP MSI</p>
+                <div className="qoute-author">
+                    <p className="Avenir-light">- Dr. Deo Florence Onda</p>
+                    <p className="Avenir-light">Deputy Director of Research, The UP MSI</p>
                 </div>
             </div>
 

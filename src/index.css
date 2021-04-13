@@ -60,6 +60,30 @@ table {
 	font-family: 'oblique';
 }
 
+@font-face {font-family: "Avenir Light"; 
+	src: url("//db.onlinewebfonts.com/t/116af611cbcd9e4bada60b4e700430c1.eot"); 
+	src: url("//db.onlinewebfonts.com/t/116af611cbcd9e4bada60b4e700430c1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/116af611cbcd9e4bada60b4e700430c1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/116af611cbcd9e4bada60b4e700430c1.woff") format("woff"), url("//db.onlinewebfonts.com/t/116af611cbcd9e4bada60b4e700430c1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/116af611cbcd9e4bada60b4e700430c1.svg#Avenir Light") format("svg"); }
+
+.Avenir-light{
+	font-family: Avenir Light;
+}
+
+@font-face {font-family: "Avenir Medium";
+	src: url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.eot");
+	src: url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.woff") format("woff"), url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.svg#Avenir Medium") format("svg"); }
+
+.Avenir-medium{
+	font-family: Avenir Medium;
+}
+
+@font-face {font-family: "Avenir Black"; 
+	src: url("//db.onlinewebfonts.com/t/275de2221d9f0c4c9257d17f5a1e4006.eot"); 
+	src: url("//db.onlinewebfonts.com/t/275de2221d9f0c4c9257d17f5a1e4006.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/275de2221d9f0c4c9257d17f5a1e4006.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/275de2221d9f0c4c9257d17f5a1e4006.woff") format("woff"), url("//db.onlinewebfonts.com/t/275de2221d9f0c4c9257d17f5a1e4006.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/275de2221d9f0c4c9257d17f5a1e4006.svg#Avenir Black") format("svg"); }
+
+.Avenir-black{
+	font-family: Avenir Black;
+}
+
 @font-face{
 	font-family: 'Optima-B';
 	src: url("./assets/Fonts/OPTIMA_B.TTF");
@@ -68,3 +92,4 @@ table {
 .Optima-B{
 	font-family: 'Optima-B';
 }
+

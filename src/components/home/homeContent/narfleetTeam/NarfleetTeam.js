@@ -30,8 +30,8 @@ const NarfleetTeam = () => {
                     </div>
 
                     <div className="team-title">
-                        <span className="Avenir">Dr. Deo Florence Onda</span>
-                        <span className="Avenir" style={{fontSize: '15px'}}>Project Head</span>
+                        <span className="Avenir-black">Dr. Deo Florence Onda</span>
+                        <span className="Avenir-light" style={{fontSize: '15px'}}>Project Head</span>
                     </div>
 
 

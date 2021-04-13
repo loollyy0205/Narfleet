@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-container Avenir">
             <div className="box-content">
                 <div className="first-column">
-                    <p>CONTACT US</p>
+                    <p className="Avenir-medium">CONTACT US</p>
                     <p>The Marine Science <br/> Institute Velasquez St. <br/> University of the Philippines Diliman, Quezon City 1101 Philippines</p>
                     <p>msiadmin@msi.upd.edu.ph</p>
                 </div>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
                 
                 <div className="third-column">
-                    <p>ABOUT UP MSI</p>
+                    <p className="Avenir-medium">ABOUT UP MSI</p>
                     <div>
                         <p>Who We Are</p>
                         <p>Our Courses</p>
@@ -35,7 +35,7 @@ const Footer = () => {
                 </div>
                 
                 <div className="third-column">
-                    <p>RESOURCES</p>
+                    <p className="Avenir-medium">RESOURCES</p>
                     <div>
                         <p>Publications</p>
                         <p>Library</p>

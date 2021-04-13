@@ -24,7 +24,7 @@ img:nth-child(3){
     color: white;
     margin-top: 72px;
     text-align: right;
-    margin-right: 120px;
+    margin-right: 125px;
     font-size: 55px;
     text-transform: uppercase;
 }
@@ -33,7 +33,7 @@ img:nth-child(3){
     color: white;
     margin-top: 5px;
     text-align: right;
-    margin-right: 120px;
+    margin-right: 125px;
     font-size: 30px;
     /* font-style: italic; */
 }

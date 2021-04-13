@@ -10,7 +10,7 @@ body{
     left: 0px;
     top: 0px;
     background: rgba(255, 255, 255, .2) !important;
-    backdrop-filter: blur(30px) !important;
+    backdrop-filter: blur(25px) !important;
     display: grid;
     justify-content: center;
 }

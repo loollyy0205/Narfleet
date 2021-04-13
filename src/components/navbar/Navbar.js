@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <div className="nav">
             <div className="btn-nav">
-                <p className="Avenir" style={{fontWeight: 'bold', color: 'white'}}>NARFLEET HOME</p>
+                <p className="Avenir-black">NARFLEET HOME</p>
                 <p className="Avenir">ABOUT</p>
                 <p className="Avenir">THE FLEET</p>
                 <p className="Avenir">PROGRAMS</p>
