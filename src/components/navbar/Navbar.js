@@ -1,4 +1,6 @@
 import './Navbar.css';
+// import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+// import { Nav } from '../../../node_modules/react-bootstrap'
 
 const Navbar = () => {
     return (
@@ -13,6 +15,40 @@ const Navbar = () => {
                 <p className="Avenir">ANNOUNCEMENTS</p>
                 <p className="Avenir">CONTACT</p>
             </div>
+
+            {/* <Nav className="Avenir nav">
+                <Nav.Item>
+                    <Nav.Link className="white-font Avenir-black">NARFLEET HOME</Nav.Link>
+                </Nav.Item>
+
+                <Nav.Item>
+                    <Nav.Link className="white-font">ABOUT</Nav.Link>
+                </Nav.Item>
+                
+                <Nav.Item>
+                    <Nav.Link className="white-font">THE FLEET</Nav.Link>
+                </Nav.Item>
+                
+                <Nav.Item>
+                    <Nav.Link className="white-font">PROGRAMS</Nav.Link>
+                </Nav.Item>
+                
+                <Nav.Item>
+                    <Nav.Link className="white-font">STATIONS</Nav.Link>
+                </Nav.Item>
+                
+                <Nav.Item>
+                    <Nav.Link className="white-font">GALLERY</Nav.Link>
+                </Nav.Item>
+                
+                <Nav.Item>
+                    <Nav.Link className="white-font">ANNOUNCEMENTS</Nav.Link>
+                </Nav.Item>
+                
+                <Nav.Item>
+                    <Nav.Link className="white-font">CONTACT</Nav.Link>
+                </Nav.Item>
+            </Nav> */}
         </div>
 
     )

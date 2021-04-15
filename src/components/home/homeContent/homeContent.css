@@ -13,9 +13,29 @@
     flex-direction: row;
 }
 
-
-/* @media (min-width: 2560px) {
-    .homecontent-center-box{
-        margin-top: 50px;
+@media (max-width: 1680px) {
+    .homeContent-container{
+        width: 1478px;
     }
-} */
+}
+
+@media (max-width: 1536px) {
+    .homeContent-container{
+        width: 1351px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .homeContent-container{
+        width: 1267px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .homeContent-container{
+        width: 1202px;
+    }
+}
+
+
+

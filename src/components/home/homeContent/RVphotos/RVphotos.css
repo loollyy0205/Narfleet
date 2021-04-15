@@ -8,7 +8,6 @@
     flex-direction: row;
     justify-content: space-between;
 }
-
 .img-overflow{
     border-radius: 50%;
     height: 301px;
@@ -46,3 +45,94 @@
 .RVphotos-container p:nth-child(3){
     margin-top: 5px;
 }
+
+@media (max-width: 1680px) {
+    .RVphotos-container{
+        margin-left: 525px;
+        margin-right: 70px;
+        width: 865px;
+        top: 480px;
+    }
+    
+    .img-overflow{
+        height: 264px;
+        width: 264px;
+    }
+    
+    .img-subcontent{
+        margin-top: 25px;
+    }
+    
+    .RVphotos-container p:nth-child(3){
+        margin-top: 4px;
+    }
+}
+
+@media (max-width: 1536px) {
+    .RVphotos-container{
+        margin-left: 480px;
+        margin-right: 64px;
+        width: 791px;
+        top: 439px;
+    }
+    
+    .img-overflow{
+        height: 241px;
+        width: 241px;
+    }
+    
+    .img-subcontent{
+        margin-top: 23px;
+    }
+    
+    .RVphotos-container p:nth-child(3){
+        margin-top: 4px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .RVphotos-container{
+        margin-left: 450px;
+        margin-right: 60px;
+        width: 742px;
+        top: 412px;
+    }
+    
+    .img-overflow{
+        height: 226px;
+        width: 226px;
+    }
+    
+    .img-subcontent{
+        margin-top: 22px;
+    }
+    
+    .RVphotos-container p:nth-child(3){
+        margin-top: 4px;
+    }
+}
+
+
+@media (max-width: 1366px) {
+    .RVphotos-container{
+        margin-left: 427px;
+        margin-right: 57px;
+        width: 704px;
+        top: 391px;
+    }
+    
+    .img-overflow{
+        height: 214px;
+        width: 214px;
+    }
+    
+    .img-subcontent{
+        margin-top: 21px;
+    }
+    
+    .RVphotos-container p:nth-child(3){
+        margin-top: 4px;
+    }
+}
+
+

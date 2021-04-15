@@ -15,11 +15,10 @@ body{
     justify-content: center;
 }
 
-
 p{
     /* color: rgba(255, 255, 255, .8); */
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem
 }
 
 .btn-nav{
@@ -28,6 +27,66 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    width: 1580px;
+    justify-content: space-between;
+    width: 1430px;
+}
+
+@media (max-width: 1680px) {
+    .nav {
+        height: 47px;
+    }
+
+    .btn-nav {
+        width: 1229px;
+        height: 47px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1536px){
+    .nav {
+        height: 43px;
+    }
+
+    .btn-nav {
+        width: 1124px;
+        height: 43px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .nav {
+        height: 40px;
+    }
+
+    .btn-nav {
+        width: 1054px;
+        height: 40px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .nav {
+        height: 38px;
+    }
+
+    .btn-nav {
+        width: 1000px;
+        height: 38px;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }

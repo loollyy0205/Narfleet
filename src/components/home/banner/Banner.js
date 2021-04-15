@@ -7,9 +7,9 @@ const Banner = () => {
     return (
         <div className="banner-container">
             <div className="logos">
-                <img src={upLogo} alt="sample" height="90" width="90"/>
-                <img src={msiLogo} alt="sample" height="90" width="90"/>
-                <img src={nslLogo} alt="sample" height="90" width="90"/>
+                <img src={upLogo} alt="sample"/>
+                <img src={msiLogo} alt="sample"/>
+                <img src={nslLogo} alt="sample"/>
             </div>
 
             <p className="title Optima-B">National Academic Research Fleet</p>
