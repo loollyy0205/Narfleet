@@ -65,14 +65,14 @@
 
 @media (max-width: 1366px) {
     .search-container{
-        width: 176px !important;
-        height: 31px;
-        border-radius: 16px;
+        width: 160px !important;
+        height: 29px;
+        border-radius: 15px;
     }
     
     .search-icon {
-        font-size: 14px;
-        padding-left: 7px;
+        font-size: 13px;
+        padding-left: 6px;
     }
 }
 

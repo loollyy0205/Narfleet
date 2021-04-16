@@ -115,19 +115,19 @@
 
 @media (max-width: 1366px) {
     .RVphotos-container{
-        margin-left: 427px;
-        margin-right: 57px;
-        width: 704px;
-        top: 391px;
+        margin-left: 400px;
+        margin-right: 53px;
+        width: 659px;
+        top: 366px;
     }
     
     .img-overflow{
-        height: 214px;
-        width: 214px;
+        height: 200px;
+        width: 200px;
     }
     
     .img-subcontent{
-        margin-top: 21px;
+        margin-top: 19px;
     }
     
     .RVphotos-container p:nth-child(3){

@@ -20,8 +20,7 @@
   line-height: 1.2;
   padding: 102px 93px 134px 83px;
   font-family: 'Times New Roman', Times, serif;
-  
-  font-weight: normal;
+  font-weight: 100;
   font-style: normal;
 }
 
@@ -115,7 +114,7 @@
 
 @media (max-width: 1680px) {
   .side-content{
-    width: 381px;
+    width: 376px;
     margin-top: 73px;
   }
 
@@ -169,7 +168,7 @@
   
 @media (max-width: 1536px) {
   .side-content{
-    width: 348px;
+    width: 344px;
     margin-top: 67px;
   }
 
@@ -224,7 +223,7 @@
 
 @media (max-width: 1440px) {
   .side-content{
-    width: 326px;
+    width: 323px;
     margin-top: 63px;
   }
 
@@ -278,42 +277,42 @@
 
 @media (max-width: 1366px) {
   .side-content{
-    width: 309px;
-    margin-top: 60px;
+    width: 287px;
+    margin-top: 56px;
   }
 
   .qoute-container{
-    height: 421px;
-    border-radius: 4px 178px 4px 4px;
+    height: 394px;
+    border-radius: 4px 166px 4px 4px;
   }
 
   .qoute-content{
-    font-size: 35px;
-    padding: 73px 66px 95px 59px;
+    font-size: 32px;
+    padding: 68px 61px 89px 55px;
   }
     
   .qoute-author{
-    margin-top: -67px;
-    font-size: 14px;
+    margin-top: -62px;
+    font-size: 13px;
   }
     
   .qoute-author p:nth-child(2){
-    font-size: 11px;
+    font-size: 10px;
     margin-top: 1px;
   }
 
   .gallery-container{
-    margin-top: 28px;
-    height: 399px;
+    margin-top: 26px;
+    height: 373px;
   }
     
   .gallery-container img{
-    width: 309px;
-    height: 174px;
+    width: 289px;
+    height: 163px;
   }
 
   .gallery-container .image:nth-child(n+2){
-    margin-top: 9px !important;
+    margin-top: 8px !important;
   }
     
   .radius-5{
@@ -321,12 +320,12 @@
   }
 
   .image__overlay {
-    width: 309px;
+    width: 289px;
   }
 
   .image__title {
     padding: 7px;
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 

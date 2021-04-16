@@ -164,15 +164,15 @@ img:nth-child(n+2){
 
 @media (max-width: 1366px) {
     .banner-container{
-        height: 458px;
-        border-radius: 0 0 0 427px;
+        height: 429px;
+        border-radius: 0 0 0 400px;
     }
     
     .logos{
-        padding-top: 85px;
-        margin-left: 82px;
-        height: 64px;
-        width: 64px;
+        padding-top: 80px;
+        margin-left: 76px;
+        height: 59px;
+        width: 59px;
     }
 
     img:nth-child(n+2){
@@ -180,14 +180,14 @@ img:nth-child(n+2){
     }
     
     .title{
-        margin-top: 51px;
-        margin-right: 89px;
-        font-size: 39px;
+        margin-top: 47px;
+        margin-right: 83px;
+        font-size: 36px;
     }
     
     .subtitle{
         margin-top: 4px;
-        margin-right: 89px;
-        font-size: 21px;
+        margin-right: 83px;
+        font-size: 19px;
     }
 }
