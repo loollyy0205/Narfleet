@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="box-content">
                 <div className="first-column">
                     <p className="Avenir-medium">CONTACT US</p>
-                    <p>The Marine Science <br/> Institute Velasquez St. <br/> University of the Philippines Diliman, Quezon City 1101 Philippines</p>
+                    <p>The Marine Science <br/> Institute Velasquez St. <br/> University of the Philippines<br/> Diliman, Quezon City 1101<br/> Philippines</p>
                     <p>msiadmin@msi.upd.edu.ph</p>
                 </div>
 

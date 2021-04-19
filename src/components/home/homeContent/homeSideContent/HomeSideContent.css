@@ -1,6 +1,6 @@
 .side-content{
-  width: 434px;
-  margin-top: 85px;
+  width: 387px;
+  margin-top: 105px;
 }
 
 .gallery-container img{
@@ -8,17 +8,17 @@
 }
 
 .qoute-container{
-  height: 592px;
+  height: 529px;
   background-color: #0A505F;
-  border-radius: 5px 250px 5px 5px;
+  border-radius: 5px 230px 5px 5px;
 }
 
 .qoute-content{
   color: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 43px;
   line-height: 1.2;
-  padding: 102px 93px 134px 83px;
+  padding: 109px 90px 117px 74px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 100;
   font-style: normal;
@@ -31,13 +31,13 @@
 }
 
 .qoute-author p:nth-child(2){
-  font-size: 15px;
+  font-size: 13px;
   margin-top: 1px;
 }
 
 .gallery-container{
-  margin-top: 40px;
-  height: 561px;
+  margin-top: 35px;
+  height: 471px;
   overflow: hidden;
 }
 
@@ -51,8 +51,8 @@
 }
 
 .gallery-container img{
-  width: 434px;
-  height: 244px;
+  width: 387px;
+  height: 218px;
   object-fit: cover;
 }
 
@@ -78,7 +78,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 434px;
+  width: 387px;
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
   color: #ffffff;
@@ -109,7 +109,7 @@
 
 .image__title {
   padding: 10px;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 @media (max-width: 1680px) {
@@ -277,55 +277,55 @@
 
 @media (max-width: 1366px) {
   .side-content{
-    width: 287px;
-    margin-top: 56px;
+    width: 258px;
+    margin-top: 70px;
   }
-
+  
   .qoute-container{
-    height: 394px;
-    border-radius: 4px 166px 4px 4px;
+    height: 353px;
+    border-radius: 4px 153px 4px 4px;
   }
-
+  
   .qoute-content{
-    font-size: 32px;
-    padding: 68px 65px 89px 55px;
+    font-size: 29px;
+    padding: 73px 60px 78px 49px;
   }
-    
+  
   .qoute-author{
-    margin-top: -62px;
+    margin-top: -63px;
     font-size: 13px;
   }
-    
+  
   .qoute-author p:nth-child(2){
-    font-size: 10px;
+    font-size: 9px;
     margin-top: 1px;
   }
-
+  
   .gallery-container{
-    margin-top: 26px;
-    height: 373px;
+    margin-top: 23px;
+    height: 314px;
   }
-    
+  
   .gallery-container img{
-    width: 289px;
-    height: 163px;
+    width: 258px;
+    height: 145px;
   }
-
+  
   .gallery-container .image:nth-child(n+2){
     margin-top: 8px !important;
   }
-    
+  
   .radius-5{
     border-radius: 4px;
   }
-
+  
   .image__overlay {
-    width: 289px;
+    width: 258px;
   }
-
+  
   .image__title {
-    padding: 7px;
-    font-size: 13px;
+    padding: 8px;
+    font-size: 11px;
   }
 }
 
@@ -336,7 +336,7 @@
 
 
 
-@media (min-width: 2100px){
+/* @media (min-width: 2100px){
   .side-content{
     margin-top: 145px;
   }
@@ -344,4 +344,4 @@
   .gallery-container{
     height: 500px;
   }
-}
+} */

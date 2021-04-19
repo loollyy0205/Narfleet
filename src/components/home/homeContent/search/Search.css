@@ -1,6 +1,6 @@
 .search-container{
-    width: 248px !important;
-    height: 44px;
+    width: 223px !important;
+    height: 41px;
     border: 1px solid rgba(255,255,255,0.502);
     border-radius: 23px;
     background-color: rgba(255,255,255,0.2);
@@ -8,6 +8,7 @@
     flex-direction: row;
     align-items: center;
     position: absolute;
+    margin-top: 30px;
 }
 
 .search-container p{
@@ -20,7 +21,7 @@
 
 .search-icon {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 10px;
 }
 
@@ -65,23 +66,25 @@
 
 @media (max-width: 1366px) {
     .search-container{
-        width: 160px !important;
-        height: 29px;
+        width: 149px !important;
+        height: 27px;
         border-radius: 15px;
+        margin-top: 20px;
     }
     
     .search-icon {
-        font-size: 13px;
-        padding-left: 6px;
+        font-size: 14px;
+        padding-left: 7px;
     }
+    
 }
 
 
 
 
 
-@media (min-width: 2100px) {
+/* @media (min-width: 2100px) {
     .search-container {
         margin-top: 45px;
     }
-}
+} */

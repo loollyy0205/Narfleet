@@ -1,17 +1,17 @@
 .banner-container{
-    height: 644px;
+    height: 575px;
     width: 100%;
     background-image: url(../../../assets/Photos/home-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 0 0 0 600px;
+    border-radius: 0 0 0 500px;
 }
 
 .logos{
-    padding-top: 120px;
-    margin-left: 115px;
-    height: 90px;
-    width: 90px;
+    padding-top: 96px;
+    margin-left: 86px;
+    height: 80px;
+    width: 81px;
     display: flex;
 }
 
@@ -28,8 +28,8 @@ img:nth-child(n+2){
     color: white;
     margin-top: 72px;
     text-align: right;
-    margin-right: 125px;
-    font-size: 55px;
+    margin-right: 114px;
+    font-size: 49px;
     text-transform: uppercase;
 }
 
@@ -37,8 +37,8 @@ img:nth-child(n+2){
     color: white;
     margin-top: 5px;
     text-align: right;
-    margin-right: 125px;
-    font-size: 30px;
+    margin-right: 119px;
+    font-size: 26px;
     /* font-style: italic; */
 }
 
@@ -164,30 +164,30 @@ img:nth-child(n+2){
 
 @media (max-width: 1366px) {
     .banner-container{
-        height: 429px;
-        border-radius: 0 0 0 400px;
+        height: 383px;
+        border-radius: 0 0 0 333px;
     }
     
     .logos{
-        padding-top: 80px;
-        margin-left: 76px;
-        height: 59px;
-        width: 59px;
+        padding-top: 64px;
+        margin-left: 57px;
+        height: 53px;
+        width: 54px;
     }
-
+    
     img:nth-child(n+2){
         margin-left: 5px;
     }
     
     .title{
-        margin-top: 47px;
-        margin-right: 83px;
-        font-size: 36px;
+        margin-top: 48px;
+        margin-right: 76px;
+        font-size: 33px;
     }
     
     .subtitle{
-        margin-top: 4px;
-        margin-right: 83px;
-        font-size: 19px;
+        margin-top: 3px;
+        margin-right: 79px;
+        font-size: 17px;
     }
 }

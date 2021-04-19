@@ -5,7 +5,8 @@
 
 .homeContent-container{
     /* margin: 0 115px; */
-    width: 1690px;
+    width: 1500px;
+    /* border: 1px solid white; */
 }
 
 .row-content{
@@ -33,7 +34,7 @@
 
 @media (max-width: 1366px) {
     .homeContent-container{
-        width: 1126px;
+        width: 1000px;
     }
 }
 
