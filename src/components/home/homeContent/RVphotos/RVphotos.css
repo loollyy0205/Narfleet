@@ -46,7 +46,7 @@
     margin-top: 2px;
 }
 
-@media (max-width: 1680px) {
+/* @media (max-width: 1680px) {
     .RVphotos-container{
         margin-left: 525px;
         margin-right: 70px;
@@ -110,24 +110,44 @@
     .RVphotos-container p:nth-child(3){
         margin-top: 4px;
     }
-}
+} */
 
 
-@media (max-width: 1366px) {
+@media (min-width: 1366px) {
     .RVphotos-container{
-        margin-left: 350px;
-        margin-right: 53px;
-        width: 600px;
-        top: 313px;
-        font-size: 11px;
+        margin-left: 410px;
+        margin-right: 63px;
+        width: 685px;
+        top: 367px;
     }
     .img-overflow{
-        height: 179px;
-        width: 179px;
+        height: 210px;
+        width: 210px;
     }
     
     .img-subcontent{
-        margin-top: 20px;
+        margin-top: 23px;
+    }
+    
+    .RVphotos-container p:nth-child(3){
+        margin-top: 1px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .RVphotos-container{
+        margin-left: 525px;
+        margin-right: 80px;
+        width: 900px;
+        top: 470px;
+    }
+    .img-overflow{
+        height: 269px;
+        width: 269px;
+    }
+    
+    .img-subcontent{
+        margin-top: 30px;
     }
     
     .RVphotos-container p:nth-child(3){

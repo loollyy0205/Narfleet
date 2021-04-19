@@ -112,7 +112,7 @@
   font-size: 17px;
 }
 
-@media (max-width: 1680px) {
+/* @media (max-width: 1680px) {
   .side-content{
     width: 376px;
     margin-top: 73px;
@@ -273,63 +273,117 @@
     padding: 7px;
     font-size: 15px;
   }
-}
+} */
 
-@media (max-width: 1366px) {
+@media (min-width: 1366px) {
   .side-content{
-    width: 258px;
-    margin-top: 70px;
+    width: 302px;
+    margin-top: 82px;
   }
-  
+
   .qoute-container{
-    height: 353px;
-    border-radius: 4px 153px 4px 4px;
+    height: 413px;
+    border-radius: 4px 180px 4px 4px;
   }
   
   .qoute-content{
-    font-size: 29px;
-    padding: 73px 60px 78px 49px;
+    font-size: 33px;
+    padding: 85px 70px 91px 60px;
   }
   
   .qoute-author{
-    margin-top: -63px;
-    font-size: 13px;
+    margin-top: -74px;
+    font-size: 15px;
   }
   
   .qoute-author p:nth-child(2){
-    font-size: 9px;
+    font-size: 10px;
     margin-top: 1px;
   }
-  
-  .gallery-container{
-    margin-top: 23px;
-    height: 314px;
-  }
-  
-  .gallery-container img{
-    width: 258px;
-    height: 145px;
-  }
-  
-  .gallery-container .image:nth-child(n+2){
-    margin-top: 8px !important;
-  }
-  
+
   .radius-5{
     border-radius: 4px;
   }
+
+  .gallery-container{
+    margin-top: 27px;
+    height: 368px;
+  }
+
+  .gallery-container img{
+    width: 302px;
+    height: 170px;
+  }
   
+  .gallery-container .image:nth-child(n+2){
+    margin-top: 10px !important;
+  }
+
   .image__overlay {
-    width: 258px;
+    width: 302px;
   }
   
   .image__title {
     padding: 8px;
-    font-size: 11px;
+    font-size: 13px;
   }
 }
 
-
+@media (min-width: 1920px) {
+  .side-content{
+    width: 387px;
+    margin-top: 105px;
+  }
+  
+  .qoute-container{
+    height: 529px;
+    border-radius: 5px 230px 5px 5px;
+  }
+  
+  .qoute-content{
+    font-size: 43px;
+    padding: 109px 90px 117px 74px;
+  }
+  
+  .qoute-author{
+    margin-top: -95px;
+    font-size: 20px;
+  }
+  
+  .qoute-author p:nth-child(2){
+    font-size: 13px;
+    margin-top: 1px;
+  }
+  
+  .gallery-container{
+    margin-top: 35px;
+    height: 471px;
+  }
+  
+  
+  .gallery-container img{
+    width: 387px;
+    height: 218px;
+  }
+  
+  .gallery-container .image:nth-child(n+2){
+    margin-top: 12px !important;
+  }
+  
+  .radius-5{
+    border-radius: 5px;
+  }
+  
+  .image__overlay {
+    width: 387px;
+  }
+  
+  
+  .image__title {
+    padding: 10px;
+    font-size: 17px;
+  }
+}
 
 
 

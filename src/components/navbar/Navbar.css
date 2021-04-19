@@ -28,10 +28,10 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 1430px;
+    width: 1275px;
 }
 
-@media (max-width: 1680px) {
+/* @media (max-width: 1680px) {
     .nav {
         height: 47px;
     }
@@ -74,19 +74,34 @@ p{
     p {
         font-size: 15px;
     }
-}
+} */
 
-@media (max-width: 1366px) {
+@media (min-width: 1366px) {
     .nav{
-        height: 31px;
+        height: 37px;
     }
     
     p{
-        font-size: 12px;
+        font-size: 13px;
     }
     
     .btn-nav{
-        height: 31px;
-        width: 953px;
+        height: 37px;
+        width: 996px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .nav{
+        height: 47px;
+    }
+    
+    p{
+        font-size: 17px;
+    }
+    
+    .btn-nav{
+        height: 47px;
+        width: 1275px;
     }
 }

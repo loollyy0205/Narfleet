@@ -69,7 +69,7 @@
     margin-top: 15px;
 }
 
-@media (max-width: 1680px){
+/* @media (max-width: 1680px){
     .footer-container{
         height: 407px;
     }
@@ -214,57 +214,106 @@
     .last-column img:nth-child(n+2){
         margin-top: 12px;
     }
-}
+} */
 
-@media (max-width: 1366px){
+@media (min-width: 1366px){
     .footer-container{
-        height: 277px;
+        height: 304px;
     }
     
     .box-content{
-        height: 146px;
-        width: 741px;
+        height: 160px;
+        width: 813px;
     }
     
     .first-column{
-        width: 189px;
-        margin-left: 20px;
+        width: 208px;
+        margin-left: 22px;
     }
     
     .second-column{
-        padding-right: 33px;
+        padding-right: 36px;
     }
     
     .second-column div{
-        margin-top: 20px;
+        margin-top: 22px;
     }
     
     .third-column{
-        padding-left: 33px;
+        padding-left: 36px;
     }
     
     .third-column p:nth-child(1){
-        padding-right: 33px;
+        padding-right: 36px;
     }
     
     .third-column div{
-        margin-top: 20px;
+        margin-top: 22px;
     }
     
     .last-column {
-        margin-top: 20px;
-        margin-left: 33px;
+        margin-top: 22px;
+        margin-left: 36px;
     }
     
     .last-column img{
-        height: 29px;
-        width: 29px;
+        height: 32px;
+        width: 32px;
     }
     
     .last-column img:nth-child(n+2){
-        margin-top: 10px;
+        margin-top: 11px;
     }
 }
 
+@media (min-width: 1920px) {
+    .footer-container{
+        height: 415px;
+    }
+    
+    .box-content{
+        height: 219px;
+        width: 1112px;
+    }
+    
+    .first-column{
+        width: 283px;
+        margin-left: 30px;
+    }
+    
+    .second-column{
+        padding-right: 50px;
+    }
+    
+    .second-column div{
+        margin-top: 30px;
+    }
+    
+    .third-column{
+        padding-left: 50px;
+    }
+    
+    .third-column p:nth-child(1){
+        padding-right: 50px;
+    }
+    
+    .third-column div{
+        margin-top: 30px;
+    }
+    
+    .last-column {
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    
+    .last-column img{
+        height: 44px;
+        width: 44px;
+    }
+    
+    .last-column img:nth-child(n+2){
+        margin-top: 15px;
+    }
+}
 
 
