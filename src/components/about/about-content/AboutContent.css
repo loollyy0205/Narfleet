@@ -121,6 +121,14 @@
     align-items: center;
 }
 
+.explore-box {
+    width: 1307px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .explore-next img {
     height: 299px;
     width: 535px;
