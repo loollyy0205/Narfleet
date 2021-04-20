@@ -1,6 +1,6 @@
 .search-container{
-    width: 223px !important;
-    height: 41px;
+    width: 221px !important;
+    height: 39px;
     border: 1px solid rgba(255,255,255,0.502);
     border-radius: 23px;
     background-color: rgba(255,255,255,0.2);
@@ -21,7 +21,7 @@
 
 .search-icon {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     padding-left: 10px;
 }
 
@@ -66,7 +66,7 @@
 
 @media (min-width: 1366px) {
     .search-container{
-        width: 174px !important;
+        width: 173px !important;
         height: 32px;
         border-radius: 23px;
         margin-top: 23px;
@@ -80,14 +80,14 @@
 
 @media (min-width: 1920px) {
     .search-container{
-        width: 223px !important;
-        height: 41px;
+        width: 221px !important;
+        height: 39px;
         border-radius: 23px;
         margin-top: 30px;
     }
     
     .search-icon {
-        font-size: 18px;
+        font-size: 20px;
         padding-left: 10px;
     }
 }

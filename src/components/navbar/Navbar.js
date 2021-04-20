@@ -1,19 +1,29 @@
 import './Navbar.css';
+import { NavLink } from 'react-router-dom'
 // import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 // import { Nav } from '../../../node_modules/react-bootstrap'
 
 const Navbar = () => {
     return (
         <div className="nav">
-            <div className="btn-nav">
-                <p className="Avenir-black">NARFLEET HOME</p>
-                <p className="Avenir">ABOUT</p>
-                <p className="Avenir">THE FLEET</p>
-                <p className="Avenir">PROGRAMS</p>
-                <p className="Avenir">STATIONS</p>
-                <p className="Avenir">GALLERY</p>
-                <p className="Avenir">ANNOUNCEMENTS</p>
-                <p className="Avenir">CONTACT</p>
+            <div className="btn-nav Avenir">
+                <NavLink exact to="/" style={{ textDecoration: 'none', color: 'white' }} activeClassName="active">
+                    <p>NARFLEET HOME</p>
+                </NavLink>
+
+                <NavLink exact to="/about" style={{ textDecoration: 'none' }} activeClassName="active">
+                    <p>ABOUT</p>
+                </NavLink>
+
+                <NavLink exact to="/the-fleet" style={{ textDecoration: 'none' }} activeClassName="active">
+                    <p>THE FLEET</p>
+                </NavLink>
+
+                <p>PROGRAMS</p>
+                <p>STATIONS</p>
+                <p>GALLERY</p>
+                <p>ANNOUNCEMENTS</p>
+                <p>CONTACT</p>
             </div>
 
             {/* <Nav className="Avenir nav">

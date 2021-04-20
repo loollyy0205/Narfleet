@@ -1,0 +1,19 @@
+.fleet-content {
+    height: 443px;
+    border: 1px solid white;
+    position: absolute;
+    top: 261px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fleet-img {
+    height: 100%;
+    width: 443px;
+    border: 1px solid white;
+}
+
+.fleet-img:nth-child(n+2) {
+    margin-left: 56px;
+}

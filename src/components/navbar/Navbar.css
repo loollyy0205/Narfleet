@@ -21,6 +21,10 @@ p{
     font-size: 17px;
 }
 
+.active{
+    font-family: 'Avenir Black';
+}
+
 .btn-nav{
     /* position: sticky; */
     height: 47px;
