@@ -15,7 +15,7 @@ const Navbar = () => {
                     <p>ABOUT</p>
                 </NavLink>
 
-                {/* <NavLink exact to="/the-fleet" style={{ textDecoration: 'none' }} activeClassName="active">
+                {/* <NavLink className="nav-text3" exact to="/the-fleet" style={{ textDecoration: 'none' }} activeClassName="active">
                     <p>THE FLEET</p>
                 </NavLink> */}
                 

@@ -13,7 +13,6 @@ body{
     backdrop-filter: blur(25px) !important;
     display: grid;
     justify-content: center;
-    align-items: center;
 }
 
 p{
@@ -62,6 +61,7 @@ p{
 
 .active{
     font-family: 'Avenir Black';
+    margin-left: -1px;
 }
 
 .btn-nav{
@@ -73,6 +73,7 @@ p{
     /* justify-content: space-between; */
     width: 1275px;
     position: relative;
+    /* margin-top: 1px; */
 }
 
 /* @media (max-width: 1680px) {

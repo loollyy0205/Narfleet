@@ -9,9 +9,10 @@
 }
 
 .fleet-img {
+    border-radius: 50%;
     height: 100%;
     width: 443px;
-    border: 1px solid white;
+    border: 2px solid #FFFFFF;
 }
 
 .fleet-img:nth-child(n+2) {
