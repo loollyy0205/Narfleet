@@ -7,11 +7,11 @@ const Navbar = () => {
     return (
         <div className="nav">
             <div className="btn-nav Avenir">
-                <NavLink exact to="/" style={{ textDecoration: 'none', color: 'white' }} activeClassName="active">
+                <NavLink className="nav-text1" exact to="/" style={{ textDecoration: 'none', color: 'white'}} activeClassName="active">
                     <p>NARFLEET HOME</p>
                 </NavLink>
 
-                <NavLink exact to="/about" style={{ textDecoration: 'none' }} activeClassName="active">
+                <NavLink className="nav-text2" exact to="/about" style={{ textDecoration: 'none',}} activeClassName="active">
                     <p>ABOUT</p>
                 </NavLink>
 
@@ -19,12 +19,12 @@ const Navbar = () => {
                     <p>THE FLEET</p>
                 </NavLink> */}
                 
-                <p>THE FLEET</p>
-                <p>PROGRAMS</p>
-                <p>STATIONS</p>
-                <p>GALLERY</p>
-                <p>ANNOUNCEMENTS</p>
-                <p>CONTACT</p>
+                <p className="nav-text3">THE FLEET</p>
+                <p className="nav-text4">PROGRAMS</p>
+                <p className="nav-text5">STATIONS</p>
+                <p className="nav-text6">GALLERY</p>
+                <p className="nav-text7">ANNOUNCEMENTS</p>
+                <p className="nav-text8">CONTACT</p>
             </div>
 
             {/* <Nav className="Avenir nav">

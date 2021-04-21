@@ -13,26 +13,68 @@ body{
     backdrop-filter: blur(25px) !important;
     display: grid;
     justify-content: center;
+    align-items: center;
 }
 
 p{
-    /* color: rgba(255, 255, 255, .8); */
     color: white;
     font-size: 17px;
 }
 
+.nav-text1 {
+    position: absolute;
+}
+
+.nav-text2 {
+    position: absolute;
+    left: 210px;
+}
+
+.nav-text3 {
+    position: absolute;
+    left: 338px;
+}
+
+.nav-text4 {
+    position: absolute;
+    left: 495px;
+}
+
+.nav-text5 {
+    position: absolute;
+    left: 665px;
+}
+
+.nav-text6 {
+    position: absolute;
+    left: 819px;
+}
+
+.nav-text7 {
+    position: absolute;
+    left: 966px;
+}
+
+.nav-text8 {
+    position: absolute;
+    right: 0;
+}
+
 .active{
     font-family: 'Avenir Black';
+    /* margin-bottom: -4px; */
+    line-height: 125%;
 }
 
 .btn-nav{
-    /* position: sticky; */
     height: 47px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    width: 100%;
+    /* justify-content: space-between; */
     width: 1275px;
+    position: relative;
 }
 
 /* @media (max-width: 1680px) {
@@ -93,6 +135,36 @@ p{
         height: 37px;
         width: 996px;
     }
+
+    .nav-text2 {
+        position: absolute;
+        left: 164px;
+    }
+    
+    .nav-text3 {
+        position: absolute;
+        left: 264px;
+    }
+    
+    .nav-text4 {
+        position: absolute;
+        left: 387px;
+    }
+    
+    .nav-text5 {
+        position: absolute;
+        left: 520px;
+    }
+    
+    .nav-text6 {
+        position: absolute;
+        left: 640px;
+    }
+    
+    .nav-text7 {
+        position: absolute;
+        left: 755px;
+    }
 }
 
 @media (min-width: 1920px) {
@@ -107,5 +179,35 @@ p{
     .btn-nav{
         height: 47px;
         width: 1275px;
+    }
+    
+    .nav-text2 {
+        position: absolute;
+        left: 210px;
+    }
+    
+    .nav-text3 {
+        position: absolute;
+        left: 338px;
+    }
+    
+    .nav-text4 {
+        position: absolute;
+        left: 495px;
+    }
+    
+    .nav-text5 {
+        position: absolute;
+        left: 665px;
+    }
+    
+    .nav-text6 {
+        position: absolute;
+        left: 819px;
+    }
+    
+    .nav-text7 {
+        position: absolute;
+        left: 966px;
     }
 }
