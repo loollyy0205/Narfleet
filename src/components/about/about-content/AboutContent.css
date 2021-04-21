@@ -111,65 +111,140 @@
     width: 465px !important;
 }
 
-.explore-next {
-    height: 413px;
-    border-radius: 0 450px 0 0;
-    background-color: rgba(10, 80, 95, .3);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+@media (min-width: 1366px) {
+    .aboutContent-card-1 {
+        height: 349px;
+        border-radius: 4px;
+        margin-top: 109px;
+        width: 815px;
+    }
+    
+    .aboutContent-card-2 {
+        height: 223px;
+        border-radius: 4px;
+        margin-top: 31px;
+        width: 815px;
+    }
+    
+    .aboutContent-card-3 {
+        height: 243px;
+        border-radius: 4px;
+        margin-top: 31px;
+        width: 815px;
+    }
+    
+    .aboutContent-card-4 {
+        height: 280px;
+        border-radius: 4px;
+        margin-top: 31px;
+        margin-bottom: 40px;
+        width: 815px;
+    }
+    
+    .padding-about-card {
+        width: 719px;
+    }
+    
+    .padding-about-card p:nth-child(1){
+        font-size: 20px;
+    }
+    
+    .padding-about-card p:nth-child(2){
+        margin-top: 22px;
+    }
+    
+    .padding-about-card p:nth-child(3){
+        margin-top: 18px;
+    }
+    
+    .carousel-card {
+        height: 223px;
+        width: 1191px;
+        margin-bottom: 98px;
+        border-radius: 4px;
+    }
+    
+    .carousel-card img {
+        height: 196px;
+        width: 348px;
+    }
+    
+    .rec.rec-item-wrapper {
+        width: 363px !important;
+    }    
 }
 
-.explore-box {
-    width: 1307px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.explore-next img {
-    height: 299px;
-    width: 535px;
-    object-fit: cover;
-    background-color: #5A7634;
-}
-
-.bg-cont {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.explore-next .bg-img{
-    position: absolute;
-    margin-right: 535px;
-    z-index: -1;
-    margin-top: -150px;
-    height: 299px;
-    width: 535px;
-    background-color: #5A7634;
-}
-
-.explore-next img:hover {
-    margin-right: 9px;
-    margin-bottom: 15px;
-}
-
-.navi-title {
-    color: white;
-    font-size: 31px;
-    margin-left: 94px;
-}
-
-.next-icon {
-    font-size: 50px;
-    margin-bottom: -15px;
-}
-
-.explore-next-content {
-    line-height: 1.4;
-    width: 678px;
-    margin-left: 94px;
-    margin-top: 28px;
+@media (min-width: 1920px) {
+    .aboutContent-card-1 {
+        height: 447px;
+        border-radius: 5px;
+        margin-top: 140px;
+        width: 1043px;
+    }
+    
+    .aboutContent-card-2 {
+        height: 286px;
+        border-radius: 5px;
+        margin-top: 40px;
+        width: 1043px;
+    }
+    
+    .aboutContent-card-3 {
+        height: 311px;
+        border-radius: 5px;
+        margin-top: 40px;
+        width: 1043px;
+    }
+    
+    .aboutContent-card-4 {
+        height: 359px;
+        border-radius: 5px;
+        margin-top: 40px;
+        margin-bottom: 51px;
+        width: 1043px;
+    }
+    
+    .padding-about-card {
+        width: 920px;
+    }
+    
+    .padding-about-card p:nth-child(1){
+        font-size: 26px;
+    }
+    
+    .padding-about-card p:nth-child(2){
+        margin-top: 28px;
+    }
+    
+    .padding-about-card p:nth-child(3){
+        margin-top: 23px;
+    }
+    
+    .carousel-card {
+        height: 286px;
+        width: 1525px;
+        margin-bottom: 125px;
+        border-radius: 5px;
+    }
+    
+    .carousel-card img {
+        height: 251px;
+        width: 446px;
+    }
+    
+    .rec.rec-arrow-left {
+        margin-left: -45px;
+    }
+    
+    .rec.rec-arrow-right {
+        margin-right: -45px;
+    }
+    
+    .rec-slider-container {
+        margin: 1 !important;
+    }
+    
+    .rec.rec-item-wrapper {
+        width: 465px !important;
+    }
 }

@@ -26,3 +26,35 @@
     font-size: 20px;
     padding-left: 10px;
 }
+
+
+@media (min-width: 1366px) {
+    .about-search {
+        width: 173px !important;
+        height: 30px;
+        border-radius: 18px;
+        right: 100px;
+        margin-top: 23px;
+    }
+    
+    .search-icon {
+        font-size: 16px;
+        padding-left: 8px;
+    }    
+}
+
+@media (min-width: 1920px) {
+    .about-search {
+        width: 221px !important;
+        height: 39px;
+        border-radius: 23px;
+        right: 128px;
+        margin-top: 30px;
+    }
+    
+    .search-icon {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    
+}
