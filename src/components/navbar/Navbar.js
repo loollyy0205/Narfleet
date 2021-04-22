@@ -15,11 +15,11 @@ const Navbar = () => {
                     <p>ABOUT</p>
                 </NavLink>
 
-                {/* <NavLink className="nav-text3" exact to="/the-fleet" style={{ textDecoration: 'none' }} activeClassName="active">
+                <NavLink className="nav-text3" exact to="/the-fleet" style={{ textDecoration: 'none' }} activeClassName="active">
                     <p>THE FLEET</p>
-                </NavLink> */}
+                </NavLink>
                 
-                <p className="nav-text3">THE FLEET</p>
+                {/* <p className="nav-text3">THE FLEET</p> */}
                 <p className="nav-text4">PROGRAMS</p>
                 <p className="nav-text5">STATIONS</p>
                 <p className="nav-text6">GALLERY</p>

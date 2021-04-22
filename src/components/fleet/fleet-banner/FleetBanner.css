@@ -36,3 +36,49 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+@media (min-width: 1366px) {
+    .fleetBanner-container{
+        height: 712px;
+    }
+    
+    .fleet .logos {
+        left: -19px;
+    }
+    
+    .fleet .fleet-title{
+        font-size: 38px;
+    }
+    
+    .fleet .title-search {
+        top: 78px;
+        right: 39px;
+    }
+    
+    .fleet .search-fleet{
+        margin-top: -16px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .fleetBanner-container{
+        height: 912px;
+    }
+    
+    .fleet .logos {
+        left: -25px;
+    }
+    
+    .fleet .fleet-title{
+        font-size: 49px;
+    }
+    
+    .fleet .title-search {
+        top: 100px;
+        right: 50px;
+    }
+    
+    .fleet .search-fleet{
+        margin-top: -20px;
+    }
+}
