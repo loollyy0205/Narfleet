@@ -4,6 +4,7 @@ import Footer from './components/footer/Footer'
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Fleet from './components/fleet/Fleet';
 import About from './components/about/About';
+import Programs from './components/programs/Programs';
 
 const App = () => {
   return (
@@ -25,6 +26,10 @@ const App = () => {
 
             <Route exact path="/about">
               <About />
+            </Route>
+
+            <Route exact path="/programs">
+              <Programs />
             </Route>
           </Switch>
         <Footer />

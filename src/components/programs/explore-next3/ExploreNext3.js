@@ -1,7 +1,7 @@
-import navi from '../../../assets/Photos/fleet/navi-01.png'
+import navi from '../../../assets/Photos/programs/06-navi-programs-photo.jpg'
 import { MdNavigateNext } from 'react-icons/md'
 
-const ExploreNext2 = () => {
+const ExploreNext3 = () => {
     return (
         <div>
             <div className="explore-next">
@@ -11,7 +11,7 @@ const ExploreNext2 = () => {
                         <span className="bg-img"></span>
                     </div>
                     <div>
-                        <span className="Optima-B navi-title"><span style={{color: '#5A7634'}}>EXPLORE NEXT <MdNavigateNext className="next-icon"/></span>PROGRAMS</span>
+                        <span className="Optima-B navi-title"><span style={{color: '#5A7634'}}>EXPLORE NEXT <MdNavigateNext className="next-icon"/></span>STATIONS</span>
                         <br/>
                         <p className="explore-next-content Avenir-light">PROTECT WPS was an all-Filipino scientific expedition launched on April 22 with goal of exploring and conducting “biological and oceanographic research activities within Kalayaan Island Group-West Philippine Sea (KIG-WPS),” Department of Environment and Natural Resources (DENR)’s Agos ng Buhay said. DENR Agos added that the expedition aimed to generate baseline data in order to further understand the changes occurring in the country’s marine ecosystems.</p>
                         
@@ -22,4 +22,4 @@ const ExploreNext2 = () => {
     )
 }
 
-export default ExploreNext2
+export default ExploreNext3

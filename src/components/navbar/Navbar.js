@@ -19,8 +19,10 @@ const Navbar = () => {
                     <p>THE FLEET</p>
                 </NavLink>
                 
-                {/* <p className="nav-text3">THE FLEET</p> */}
-                <p className="nav-text4">PROGRAMS</p>
+                <NavLink className="nav-text4" exact to="/programs" style={{ textDecoration: 'none' }} activeClassName="active">
+                    <p>PROGRAMS</p>
+                </NavLink>
+                {/* <p className="nav-text4">PROGRAMS</p> */}
                 <p className="nav-text5">STATIONS</p>
                 <p className="nav-text6">GALLERY</p>
                 <p className="nav-text7">ANNOUNCEMENTS</p>

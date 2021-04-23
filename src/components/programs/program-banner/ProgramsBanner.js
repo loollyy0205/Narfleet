@@ -1,11 +1,11 @@
-import './AboutBanner.css'
+import './ProgramsBanner.css'
 import upLogo from '../../../assets/Photos/up-logo.png'
 import nslLogo from '../../../assets/Photos/nsl-logo.png'
 import msiLogo from '../../../assets/Photos/msi-logo.png'
 
-const AboutBanner = () => {
+const ProgramsBanner = () => {
     return (
-        <div className="about-banner">
+        <div className="programs-banner">
             <div className="about-logos">
                 <img src={upLogo} alt="sample"/>
                 <img src={msiLogo} alt="sample"/>
@@ -13,11 +13,11 @@ const AboutBanner = () => {
             </div>
 
             
-            <p className="about-title Optima-B">About Narfleet</p>
+            <p className="about-title Optima-B">Narfleet Programs</p>
 
             <p className="Avenir-oblique about-bannerText">In response to the need to improve capacity for ocean research and assist the government in science-based management of our marine resources, the National Security Council granted the request OF UP MSI to establish and develop the country’s National Academic Research Fleet (NARFleet). The NARFleet will be a group of vessels dedicated to Marine Scientific Research (MSR) initiatives of the country.</p>
         </div>
     )
 }
 
-export default AboutBanner
+export default ProgramsBanner
