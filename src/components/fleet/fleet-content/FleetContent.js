@@ -4,6 +4,7 @@ import ship from '../../../assets/Photos/fleet/kasarinlan-01.png'
 // import { useState } from 'react'
 
 const FleetContent = () => {
+    // const fleet = false;
     return (
         <div>
             <div className="fleet-content">

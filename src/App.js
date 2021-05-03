@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Fleet from './components/fleet/Fleet';
 import About from './components/about/About';
 import Programs from './components/programs/Programs';
+import Stations from './components/stations/Stations';
 
 const App = () => {
   return (
@@ -30,6 +31,10 @@ const App = () => {
 
             <Route exact path="/programs">
               <Programs />
+            </Route>
+
+            <Route exact path="/stations">
+              <Stations />
             </Route>
           </Switch>
         <Footer />

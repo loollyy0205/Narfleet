@@ -22,8 +22,10 @@ const Navbar = () => {
                 <NavLink className="nav-text4" exact to="/programs" style={{ textDecoration: 'none' }} activeClassName="active">
                     <p>PROGRAMS</p>
                 </NavLink>
-                {/* <p className="nav-text4">PROGRAMS</p> */}
-                <p className="nav-text5">STATIONS</p>
+
+                <NavLink className="nav-text5" exact to="/stations" style={{ textDecoration: 'none' }} activeClassName="active">
+                    <p>STATIONS</p>
+                </NavLink>
                 <p className="nav-text6">GALLERY</p>
                 <p className="nav-text7">ANNOUNCEMENTS</p>
                 <p className="nav-text8">CONTACT</p>
