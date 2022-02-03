@@ -7,7 +7,7 @@ const Programs = () => {
         <div>
             <AnnouncementsBanner />
             <AnnouncementsContent />
-            <AnnouncementsExplore />
+             <AnnouncementsExplore />
         </div>
     )
 }

@@ -1,4 +1,5 @@
 
+
 .about-container-1{
     width: 82%;
     margin: auto;
@@ -10,52 +11,52 @@
 
 .about-card-1{
     background-color: #FFFFFF1A;
-    padding: 40px 55px 55px 40px;
-    border-radius: 5px;
+    padding: 3.521vw;
+    border-radius: 0.352vw;
     display: flex;
-    width: 1470px;
-    height: 340px;
+    width: 80.99vw;
+    height: 20.07vw;
     flex-direction: column;
     /*justify-content: center;
     align-items: center;*/
     position: relative;
     font-weight: 100;
     line-height: 1.5;
-    letter-spacing: 0.32px;
-    margin-bottom: 70px;
+    letter-spacing: 0.022vw;
+    margin-bottom: 4.92vw;
     
 }
 
 .about-card-1:first-child{
-    margin-top: 140px;
+    margin-top: 9.85vw;
     
 }
 .about-card-1:last-child{
-    margin-bottom: 140px;
+    margin-bottom: 9.85vw;
 }
 
 .about-card-1 p{
-    font-size: 19px;
+    font-size: 0.951vw;
     color: #f8f8ff;
     
 }
 
 .about-card-1 p:nth-child(1){
-    font-size: 28px;
+    font-size: 1.464vw;
     font-weight: 100;
-    margin-top: 15px;
+    margin-top: 1.057vw;
 }
 
 .about-card-1 p:nth-child(n+2){
-    margin-top: 25px;
+    margin-top: 1.76vw;
 }
 
 .about-card-1 p:nth-child(4){
-    font-size: 14px;
+    font-size: 0.99vw;
     font-weight: 100;
     position: relative;
-    top: -5px;
-    left: 92%;
+    top: -0.352vw;
+    left: 35.92vw;
 }
 
 .about-card-text{
@@ -65,47 +66,58 @@
     
 }
 
+
 .announcement-card-label{
-    position: absolute;
-    color: #ffff;
+    height: 1.976vw;
+    width: 11.346vw;
+    border-radius: 1.098vw 1.098vw 0 1.098vw;
+    font-size: 0.951vw;
     background-color: #5A7634;
-    border-radius: 20px 20px 0px 20px;
-    padding: 5px 35px;
-    top: -15px;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    left: 85%;
+    position: absolute;
+    top: -1.098vw;
+    right: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .news-card-label{
-    position: absolute;
-    color: #ffff;
+    height: 1.976vw;
+    width: 6.881vw;
+    border-radius: 1.098vw 1.098vw 0 1.098vw;
+    font-size: 0.951vw;
     background-color: #0A505F;
-    border-radius: 20px 20px 0px 20px;
-    padding: 5px 35px;
-    top: -15px;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    left: 92%;
+    position: absolute;
+    top: -1.098vw;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .feature-card-label{
+    height: 1.976vw;
+    width: 8.346vw;
+    border-radius: 1.098vw 1.098vw 0 1.098vw;
+    font-size: 0.951vw;
+    background-color: #5A7634;
     position: absolute;
-    color: #ffff;
-    background-color:#5A7634;
-    border-radius: 20px 20px 0px 20px;
-    padding: 5px 35px;
-    top: -15px;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    left: 90.3%;
+    top: -1.098vw;
+    right: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .announcement-image {
-    width: 630px;
-    height: 350px;
+    width: 35.211vw;
+    height: 20.42vw;
     position: absolute;
-    padding: 5px 0px;
+    padding: 0.352vw 0vw
 }
 
 .announcement-image img {
@@ -117,15 +129,4 @@
 
 .announcement-link{
     text-decoration: none;
-}
-
-@media (min-width: 1366px) {
-
-    
-}
-
-@media (min-width: 1920px) {
-  
-    
-  
 }
