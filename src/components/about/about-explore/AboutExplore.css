@@ -1,11 +1,6 @@
 .explore-next {
-<<<<<<< HEAD
     height: 23.645vw;
     border-radius: 0 25.768vw 0 0;
-=======
-    height: 29.085vw;
-    border-radius: 0 31.690vw 0 0;
->>>>>>> d821b6175528cfa87bafb5760256e47eb4c27af2
     background-color: rgba(10, 80, 95, .3);
     display: flex;
     flex-direction: row;
@@ -14,11 +9,7 @@
 }
 
 .explore-box {
-<<<<<<< HEAD
     width: 74.743vw;
-=======
-    width: 92.042vw;
->>>>>>> d821b6175528cfa87bafb5760256e47eb4c27af2
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -26,13 +17,8 @@
 }
 
 .explore-next img {
-<<<<<<< HEAD
     height: 17.130vw;
     width: 30.600vw;
-=======
-    height: 21.056vw;
-    width: 37.68vw;
->>>>>>> d821b6175528cfa87bafb5760256e47eb4c27af2
     object-fit: cover;
     background-color: #5A7634;
     /* transition: 0.3s; */
