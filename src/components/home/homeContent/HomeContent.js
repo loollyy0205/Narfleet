@@ -1,8 +1,8 @@
 import './homeContent.css'
-import HomeContentSide from './home-content-side/HomeContentSide'
-import HomeContentTeam from './home-content-team/HomeContentTeam'
-import HomeContentNews from './home-content-news/HomeContentNews'
-import HomeContentRVPhotos from './home-content-RVphotos/HomeContentRVphotos'
+import HomseSideContent from './homeSideContent/HomseSideContent'
+import NarfleetTeam from './narfleetTeam/NarfleetTeam'
+import News from './news/News'
+import RVphotos from './RVphotos/RVphotos'
 import Search from './search/Search'
 
 
@@ -14,15 +14,15 @@ const HomeContent = () => {
                     <div className="row-content">
                         <Search />
                         <div>
-                            <HomeContentRVPhotos/>
-                            <HomeContentNews />
+                            <RVphotos />
+                            <News />
                         </div>
                     </div>
-                    <HomeContentSide />
+                    <HomseSideContent />
                 </div>
             </div>
             
-            <HomeContentTeam/>
+            <NarfleetTeam />
         </div>
     )
 }

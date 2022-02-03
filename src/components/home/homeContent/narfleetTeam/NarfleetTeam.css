@@ -1,0 +1,157 @@
+.team-container{
+    height: 420px;
+    position: relative;
+}
+
+.team-container img{
+    height: 420px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ocean{
+    opacity: 0.4;
+}
+
+.team-content{
+    position: absolute;
+    color: white;
+    height: 420px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.team-images img:nth-child(1){
+    height: 630px;
+    width: 489px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    z-index: -99;
+    opacity: 0.8;
+}
+
+.team-images img:nth-child(2){
+    height: 568px;
+    width: 489px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -100;
+    opacity: 0.5;
+    bottom: 0;
+    margin-right: 800px;
+}
+
+.team-images img:nth-child(3){
+    height: 568px;
+    width: 489px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -100;
+    opacity: 0.5;
+    bottom: 0;
+    margin-left: 840px;
+}
+
+.team-softlight img{
+    height: 630px;
+    width: 489px;
+    object-fit: cover;
+}
+
+.team-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1690px;
+    height: 750px;
+}
+
+.team-images-box {
+    display: grid;
+    justify-content: center;
+}
+
+.team-container .team-softlight{
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    /* mix-blend-mode: soft-light; */
+    opacity: 0.5;
+    filter: brightness(67%) contrast(160%);
+}
+
+.team-content p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.green-container{
+    display: grid;
+    justify-content: center;
+}
+
+.green-line{
+    border-bottom: 2px solid #5A7634;
+    width: 1180px;
+    margin-top: 60px;
+}
+
+.team-title{
+    z-index: 999;
+    position: absolute;
+    height: 72px;
+    font-size: 12px;
+    width: 100%;
+    background: rgba(255, 255, 255, .2) !important;
+    backdrop-filter: blur(15px) !important;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.1;
+}
+
+.team-title-sub {
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+}
+
+.title-logos {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;   
+}
+
+.logo-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 1180px;
+}
+
+.mid-subtitle{  
+    width: 118px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-4 {
+    margin-top: 4px;
+}
+
+.title-logos img{
+    height: 114px;
+    width: 118px;
+}
