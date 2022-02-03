@@ -5,7 +5,7 @@
 
 .homeContent-container{
     /* margin: 0 115px; */
-    width: 1507px;
+    width: 86.3vw;
 }
 
 .row-content{
@@ -13,32 +13,3 @@
     flex-direction: row;
 }
 
-/* @media (max-width: 1680px) {
-    .homeContent-container{
-        width: 1478px;
-    }
-}
-
-@media (max-width: 1536px) {
-    .homeContent-container{
-        width: 1351px;
-    }
-}
-
-@media (max-width: 1440px) {
-    .homeContent-container{
-        width: 1267px;
-    }
-} */
-
-@media (min-width: 1366px) {
-    .homeContent-container{
-        width: 1180px;
-    }
-}
-
-@media (min-width: 1920px) {
-    .homeContent-container{
-        width: 1507px;
-    }
-}

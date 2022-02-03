@@ -1,6 +1,6 @@
 .side-content{
-  width: 387px;
-  margin-top: 105px;
+  width: 20.9vw;
+  margin-top: 5.69vw;
 }
 
 .gallery-container img{
@@ -8,17 +8,17 @@
 }
 
 .qoute-container{
-  height: 529px;
   background-color: #0A505F;
-  border-radius: 5px 230px 5px 5px;
+  height: 28.68vw;
+  border-radius: 0.28vw 12.5vw 0.28vw 0.28vw;
 }
 
 .qoute-content{
   color: white;
   text-align: center;
-  font-size: 43px;
   line-height: 1.2;
-  padding: 109px 90px 117px 74px;
+  font-size: 2.291vw;
+  padding: 5.90vw 4.861vw 6.394vw 4.167vw;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 100;
   font-style: normal;
@@ -26,18 +26,18 @@
 
 .qoute-author{
   text-align: center;
-  margin-top: -95px;
-  font-size: 20px;
+  margin-top: -5.139vw;
+  font-size: 1.0417vw;
 }
 
 .qoute-author p:nth-child(2){
-  font-size: 13px;
-  margin-top: 1px;
+  font-size: 0.694vw;
+  margin-top: 0.0694vw;
 }
 
 .gallery-container{
-  margin-top: 35px;
-  height: 471px;
+  margin-top: 1.875vw;
+  height: 25.55vw;
   overflow: hidden;
 }
 
@@ -45,23 +45,23 @@
   height: 100%;
   width: 100%;
   overflow-y: scroll;
-  padding-right: 1000px; /* Increase/decrease this value for cross-browser compatibility */
+  padding-right: 69.44vw; /* Increase/decrease this value for cross-browser compatibility */
   box-sizing: content-box; /* So the width will be 100% + 17px */
   overflow-x: hidden;
 }
 
 .gallery-container img{
-  width: 387px;
-  height: 218px;
+  width: 20.97vw;
+  height: 11.81vw;
   object-fit: cover;
 }
 
 .gallery-container .image:nth-child(n+2){
-  margin-top: 12px !important;
+  margin-top: 0.694vw !important;
 }
 
 .radius-5{
-  border-radius: 5px;
+  border-radius: 0.278vw;
 }
 
 .image {
@@ -78,7 +78,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 387px;
+  width: 20.95vw;
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
   color: #ffffff;
@@ -108,294 +108,7 @@
 }
 
 .image__title {
-  padding: 10px;
-  font-size: 17px;
+  padding: 0.56vw;
+  font-size: 0.9028vw;
 }
 
-/* @media (max-width: 1680px) {
-  .side-content{
-    width: 376px;
-    margin-top: 73px;
-  }
-
-  .qoute-container{
-    height: 517px;
-    border-radius: 4px 219px 4px 4px;
-  }
-
-  .qoute-content{
-    font-size: 43px;
-    padding: 90px 82px 117px 72px;
-  }
-    
-  .qoute-author{
-    margin-top: -83px;
-    font-size: 18px;
-  }
-    
-  .qoute-author p:nth-child(2){
-    font-size: 14px;
-    margin-top: 1px;
-  }
-
-  .gallery-container{
-    margin-top: 35px;
-    height: 491px;
-  }
-    
-  .gallery-container img{
-    width: 381px;
-    height: 213px;
-  }
-
-  .gallery-container .image:nth-child(n+2){
-    margin-top: 11px !important;
-  }
-    
-  .radius-5{
-    border-radius: 4px;
-  }
-
-  .image__overlay {
-    width: 381px;
-  }
-
-  .image__title {
-    padding: 8px;
-    font-size: 18px;
-  }
-}
-  
-@media (max-width: 1536px) {
-  .side-content{
-    width: 344px;
-    margin-top: 67px;
-  }
-
-  .qoute-container{
-    height: 473px;
-    border-radius: 4px 201px 4px 4px;
-  }
-
-  .qoute-content{
-    font-size: 39px;
-    padding: 82px 75px 107px 66px;
-  }
-    
-  .qoute-author{
-    margin-top: -76px;
-    font-size: 16px;
-  }
-    
-  .qoute-author p:nth-child(2){
-    font-size: 13px;
-    margin-top: 1px;
-  }
-
-  .gallery-container{
-    margin-top: 32px;
-    height: 449px;
-  }
-    
-  .gallery-container img{
-    width: 348px;
-    height: 195px;
-  }
-
-  .gallery-container .image:nth-child(n+2){
-    margin-top: 10px !important;
-  }
-    
-  .radius-5{
-    border-radius: 4px;
-  }
-
-  .image__overlay {
-    width: 348px;
-  }
-
-  .image__title {
-    padding: 7px;
-    font-size: 16px;
-  }
-}
-
-
-@media (max-width: 1440px) {
-  .side-content{
-    width: 323px;
-    margin-top: 63px;
-  }
-
-  .qoute-container{
-    height: 444px;
-    border-radius: 4px 188px 4px 4px;
-  }
-
-  .qoute-content{
-    font-size: 37px;
-    padding: 77px 70px 100px 62px;
-  }
-    
-  .qoute-author{
-    margin-top: -71px;
-    font-size: 15px;
-  }
-    
-  .qoute-author p:nth-child(2){
-    font-size: 12px;
-    margin-top: 1px;
-  }
-
-  .gallery-container{
-    margin-top: 30px;
-    height: 421px;
-  }
-    
-  .gallery-container img{
-    width: 326px;
-    height: 183px;
-  }
-
-  .gallery-container .image:nth-child(n+2){
-    margin-top: 9px !important;
-  }
-    
-  .radius-5{
-    border-radius: 4px;
-  }
-
-  .image__overlay {
-    width: 326px;
-  }
-
-  .image__title {
-    padding: 7px;
-    font-size: 15px;
-  }
-} */
-
-@media (min-width: 1366px) {
-  .side-content{
-    width: 302px;
-    margin-top: 82px;
-  }
-
-  .qoute-container{
-    height: 413px;
-    border-radius: 4px 180px 4px 4px;
-  }
-  
-  .qoute-content{
-    font-size: 33px;
-    padding: 85px 70px 91px 60px;
-  }
-  
-  .qoute-author{
-    margin-top: -74px;
-    font-size: 15px;
-  }
-  
-  .qoute-author p:nth-child(2){
-    font-size: 10px;
-    margin-top: 1px;
-  }
-
-  .radius-5{
-    border-radius: 4px;
-  }
-
-  .gallery-container{
-    margin-top: 27px;
-    height: 368px;
-  }
-
-  .gallery-container img{
-    width: 302px;
-    height: 170px;
-  }
-  
-  .gallery-container .image:nth-child(n+2){
-    margin-top: 10px !important;
-  }
-
-  .image__overlay {
-    width: 302px;
-  }
-  
-  .image__title {
-    padding: 8px;
-    font-size: 13px;
-  }
-}
-
-@media (min-width: 1920px) {
-  .side-content{
-    width: 387px;
-    margin-top: 105px;
-  }
-  
-  .qoute-container{
-    height: 529px;
-    border-radius: 5px 230px 5px 5px;
-  }
-  
-  .qoute-content{
-    font-size: 43px;
-    padding: 109px 90px 117px 74px;
-  }
-  
-  .qoute-author{
-    margin-top: -95px;
-    font-size: 20px;
-  }
-  
-  .qoute-author p:nth-child(2){
-    font-size: 13px;
-    margin-top: 1px;
-  }
-  
-  .gallery-container{
-    margin-top: 35px;
-    height: 471px;
-  }
-  
-  
-  .gallery-container img{
-    width: 387px;
-    height: 218px;
-  }
-  
-  .gallery-container .image:nth-child(n+2){
-    margin-top: 12px !important;
-  }
-  
-  .radius-5{
-    border-radius: 5px;
-  }
-  
-  .image__overlay {
-    width: 387px;
-  }
-  
-  
-  .image__title {
-    padding: 10px;
-    font-size: 17px;
-  }
-}
-
-
-
-
-
-
-/* @media (min-width: 2100px){
-  .side-content{
-    margin-top: 145px;
-  }
-
-  .gallery-container{
-    height: 500px;
-  }
-} */

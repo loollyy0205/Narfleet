@@ -1,10 +1,10 @@
 .team-container{
-    height: 420px;
+    height: 30.746vw;
     position: relative;
 }
 
 .team-container img{
-    height: 420px;
+    height: 30.746vw;
     width: 100%;
     object-fit: cover;
 }
@@ -16,15 +16,15 @@
 .team-content{
     position: absolute;
     color: white;
-    height: 420px;
+    height: 30.746vw;
     width: 100%;
     position: absolute;
     top: 0;
 }
 
 .team-images img:nth-child(1){
-    height: 630px;
-    width: 489px;
+    height: 46.120vw;
+    width: 35.797vw;
     object-fit: cover;
     position: absolute;
     bottom: 0;
@@ -33,30 +33,30 @@
 }
 
 .team-images img:nth-child(2){
-    height: 568px;
-    width: 489px;
+    height: 41.581vw;
+    width: 35.797vw;
     object-fit: cover;
     position: absolute;
     z-index: -100;
     opacity: 0.5;
     bottom: 0;
-    margin-right: 800px;
+    margin-right: 58.565vw;
 }
 
 .team-images img:nth-child(3){
-    height: 568px;
-    width: 489px;
+    height: 41.581;
+    width: 35.797vw;
     object-fit: cover;
     position: absolute;
     z-index: -100;
     opacity: 0.5;
     bottom: 0;
-    margin-left: 840px;
+    margin-left: 61.493vw;
 }
 
 .team-softlight img{
-    height: 630px;
-    width: 489px;
+    height: 46.120;
+    width: 35.797vw;
     object-fit: cover;
 }
 
@@ -64,8 +64,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 1690px;
-    height: 750px;
+    width: 123.718vw;
+    height: 54.904vw;
 }
 
 .team-images-box {
@@ -87,8 +87,8 @@
 }
 
 .team-content p{
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 1.464vw;
+    font-size: 1.464vw;
     text-align: center;
 }
 
@@ -98,16 +98,16 @@
 }
 
 .green-line{
-    border-bottom: 2px solid #5A7634;
-    width: 1180px;
-    margin-top: 60px;
+    border-bottom: 0.146vw solid #5A7634;
+    width: 86.383vw;
+    margin-top: 4.392vw;
 }
 
 .team-title{
     z-index: 999;
     position: absolute;
-    height: 72px;
-    font-size: 12px;
+    height: 5.270vw;
+    font-size: 0.878vw;
     width: 100%;
     background: rgba(255, 255, 255, .2) !important;
     backdrop-filter: blur(15px) !important;
@@ -121,11 +121,11 @@
 .team-title-sub {
     display: flex;
     justify-content: center;
-    gap: 37px;
+    gap: 2.708vw;
 }
 
 .title-logos {
-    margin-top: 60px;
+    margin-top: 4.392vw;
     display: flex;
     justify-content: center;   
 }
@@ -135,12 +135,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    width: 1180px;
+    gap: 2.196vw;
+    width: 86.383vw;
 }
 
 .mid-subtitle{  
-    width: 118px;
+    width: 8.638vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,10 +148,10 @@
 }
 
 .top-4 {
-    margin-top: 4px;
+    margin-top: 0.292vw;
 }
 
 .title-logos img{
-    height: 114px;
-    width: 118px;
+    height: 8.345vw;
+    width: 8.638vw;
 }
