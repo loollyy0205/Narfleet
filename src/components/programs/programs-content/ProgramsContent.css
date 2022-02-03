@@ -1,26 +1,26 @@
 .programs-container {
     display: grid;
     justify-content: center;
-    margin-bottom: 127px;
-    margin-top: 104px;
+    margin-bottom: 5.03vw;
+    margin-top: 4.12vw;
     position: relative;
 }
 
 .programs-content {
-    height: 386px;
-    margin-top: 37px;
-    width: 1440px;
+    width: 88vw;
+    height: 28vw;
+    margin-top: 3.87vw;
     background-color: #FFFFFF1A;
-    border-radius: 5px;
+    border-radius: 0.21vw;
     display: flex;
     position: relative;
 }
 
 .image-container {
-    width: 575px;
-    height: 322px;
-    margin: 32px;
-    overflow: hidden;
+    margin: 3.52vw 0.99vw 3.52vw 3.52vw;
+    width: 35.211vw;
+    height: 20.42vw;
+    padding: 0.352vw 0vw;
 }
 
 .image-container img {
@@ -39,16 +39,18 @@
     flex-direction: column;
     font-family: 'Avenir Heavy';
     line-height: 1.2;
-    padding: 80px 40px 50px 50px;
+    padding: 3.17vw 1.62vw 1.97vw 1.97vw;
 }
 
 p.title-content-programs {
-    line-height: 25px;
+    line-height: 1.55vw;
+    width: 40.85vw;
 }
 
 .program-details p{
-    line-height: 32px;
-    letter-spacing: 1px;
+    line-height: 1.76vw;
+    letter-spacing: 0.07vw;
+    margin-top: 2.82vw;
 }
 
 .program-details p:hover{
@@ -56,11 +58,11 @@ p.title-content-programs {
 }
 
 .program-title {
-    font-size: 27px;
+    font-size: 1.464vw;
 }
 
 .program-subtitle {
-    font-size: 17px;
+    font-size: 0.951vw;
 }
 
 .green-text {
@@ -71,17 +73,17 @@ p.title-content-programs {
 
 .title-content-programs {
     font-family: 'Avenir Light';
-    width: 680px;
-    margin-top: 25px;
-    font-size: 18px;
+    width: 28.17vw;
+    margin-top: 1.76vw;
+    font-size: 0.951vw;
 }
 
 .learn-more {
     position: absolute;
-    font-size: 13px;
+    font-size: 0.951vw;
     display: flex;
-    bottom: 32px;
-    right: 39px;
+    bottom: 2.25vw;
+    right: 3.52vw;
 }
 
 .learn-more:hover {
@@ -91,8 +93,8 @@ p.title-content-programs {
 
 .program-search {
     position: relative;
-    margin-top: -88px;
-    margin-right: -125px;
+    margin-top: -4.5vw;
+    margin-right: -6vw;
 }
 
 /*

@@ -6,7 +6,7 @@ const Programs = () => {
     return (
         <div>
             <ProgramsBanner />
-            <ProgramsContent />
+             <ProgramsContent />
             <ProgramsExplore />
         </div>
     )

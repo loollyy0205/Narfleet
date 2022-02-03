@@ -29,7 +29,7 @@
     flex-direction: column;
     justify-content: center;
     padding-right: 2.635vw;
-    border-right: 1px solid white;
+    border-right: 0.07vw solid white;
 }
 
 .second-column div{
@@ -39,7 +39,7 @@
 
 .third-column{
     padding-left: 2.635vw;
-    border-right: 1px solid white;
+    border-right: 0.07vw solid white;
 }
 
 .third-column p:nth-child(1){
