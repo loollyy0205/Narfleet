@@ -7,8 +7,8 @@
 
 .about-card{
     background-color: #FFFFFF1A;
-    padding: 20px 55px 55px 55px;
-    border-radius: 5px;
+    padding: 1.024vw 2.855vw 2.855vw 2.855vw;
+    border-radius: 0.256vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,25 +16,25 @@
     font-weight: 100;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    margin-bottom: 50px;
+    margin-bottom: 2.635vw;
 }
 
 .about-card:first-child{
-    margin-top: 140px;
+    margin-top: 7.320vw;
 }
 
 .about-card p{
-    font-size: 19px;
+    font-size: 0.988vw;
     color: #E0E0E0;
 }
 
 .about-card p:nth-child(1){
-    font-size: 32px;
+    font-size: 1.683vw;
     font-weight: 500;
 }
 
 .about-card p:nth-child(-n+3){
-    margin-top: 30px;
+    margin-top: 1.537vw;
 }
 
 .carousel-container{
@@ -43,10 +43,10 @@
 }
 
 .carousel-card {
-    height: 286px;
-    margin-bottom: 125px;
+    height: 14.860vw;
+    margin-bottom: 6.515vw;
     background-color: #FFFFFF1A;
-    border-radius: 30px;
+    border-radius: 1.537vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,10 +54,10 @@
 }
 
 .carousel-card img {
-    height: 251px;
-    width: 446px;
+    height: 13.103vw;
+    width: 23.206vw;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 0.256vw;
     -webkit-user-drag: none;
     -khtml-user-drag: none;
     -moz-user-drag: none;
@@ -69,16 +69,16 @@
     background: none !important;
     color: #5A7634;
     position: relative;
-    font-size: 40px;
+    font-size: 2.049vw;
     /* padding: 0 -550px; */
 }
 
 .rec.rec-arrow-left {
-    margin-left: -45px;
+    margin-left: -2.342vw;
 }
 
 .rec.rec-arrow-right {
-    margin-right: -45px;
+    margin-right: -2.342vw;
 }
 
 .rec.rec-arrow:hover {
@@ -90,56 +90,5 @@
 }
 
 .rec.rec-item-wrapper {
-    width: 465px !important;
-}
-
-@media (min-width: 1366px) {
-
-    
-    .carousel-card {
-        height: 223px;
-        width: 1191px;
-        margin-bottom: 98px;
-        border-radius: 4px;
-    }
-    
-    .carousel-card img {
-        height: 196px;
-        width: 348px;
-    }
-    
-    .rec.rec-item-wrapper {
-        width: 363px !important;
-    }    
-}
-
-@media (min-width: 1920px) {
-
-    .carousel-card {
-        height: 286px;
-        width: 1525px;
-        margin-bottom: 125px;
-        border-radius: 5px;
-    }
-    
-    .carousel-card img {
-        height: 251px;
-        width: 446px;
-    }
-    
-    .rec.rec-arrow-left {
-        margin-left: -45px;
-    }
-    
-    .rec.rec-arrow-right {
-        margin-right: -45px;
-    }
-    
-    .rec-slider-container {
-        margin: 1 !important;
-    }
-    
-    .rec.rec-item-wrapper {
-        width: 465px !important;
-    }
+    width: 24.231vw !important;
 }

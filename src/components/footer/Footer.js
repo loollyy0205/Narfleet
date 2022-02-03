@@ -45,7 +45,7 @@ const Footer = () => {
                 </div>
 
                 <div className="last-column">
-                    <img src={fb} alt="facebook logo" />
+                    <img src={fb} className='fb' alt="facebook logo" />
                     <img src={twitter} alt="twitter logo" />
                     <img src={insta} alt="instagram logo" />
                 </div>

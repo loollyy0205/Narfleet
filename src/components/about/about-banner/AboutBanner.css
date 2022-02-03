@@ -1,18 +1,18 @@
 .about-banner {
-    height: 575px;
+    height: 32.869vw;
+    border-radius: 0 0 26.427vw 0;
     width: 100%;
     background-image: url(../../../assets/Photos/about/01-about-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 80% 80%;
-    border-radius: 0 0 500px 0;
 }
 
 .about-logos{
-    padding-top: 166px;
-    margin-left: 102px;
-    height: 90px;
-    width: 90px;
+    padding-top: 9.516vw;
+    margin-left: 5.856vw;
+    height: 4.575vw;
+    width: 4.612vw;
     display: flex;
 }
 
@@ -22,84 +22,25 @@
 }
 
 .about-logos img:nth-child(n+2){
-    margin-left: 7px;
+    margin-left: 0.366vw;
 }
 
 .about-title{
-    font-size: 49px;
+    font-size: 2.781vw;
+    margin-left: 5.856vw;
+    margin-top: 0.585vw;
     text-transform: uppercase;
-    margin-left: 102px;
-    margin-top: 20px;
 }
 
 .about-bannerText {
-    margin-top: 10px;
-    width: 980px;
-    margin-left: 102px;
+    margin-top: 0.585vw;
+    width: 48.901vw;
+    margin-left: 5.856vw;
     line-height: 1.45;
-    text-shadow: 10px 10px 10px #00000029;
+    text-shadow: 0.732vw 0.732vw 0.732vw #00000029;
     font-weight: 100;
     letter-spacing: 0.7px;
     font-style: oblique;
 }
 
-@media  (min-width: 1366px){
-    .about-banner {
-        height: 449px;
-        border-radius: 0 0 361px 0;
-    }
-    
-    .about-logos{
-        padding-top: 130px;
-        margin-left: 80px;
-        height: 62.5px;
-        width: 63px;
-    }
-    
-    .about-logos img:nth-child(n+2){
-        margin-left: 5px;
-    }
-    
-    .about-title{
-        font-size: 38px;
-        margin-left: 80px;
-        margin-top: 8px;
-    }
-    
-    .about-bannerText {
-        margin-top: 8px;
-        width: 668px;
-        margin-left: 80px;
-    }
-}
 
-@media (min-width: 1920px) {
-    .about-banner {
-        height: 575px;
-        border-radius: 0 0 500px 0;
-    }
-    
-    .about-logos{
-        margin-left: 102px;
-        height: 90px;
-        width: 90px;
-    }
-    
-    .about-logos img:nth-child(n+2){
-        margin-left: 7px;
-    }
-    
-    .about-title{
-        font-size: 49px;
-        margin-left: 102px;
-        margin-top: 20px;
-    }
-    
-    .about-bannerText {
-        margin-top: 10px;
-        width: 980px;
-        margin-left: 102px;
-        font-size: 19px;
-        font-weight: 100;
-    }
-}
