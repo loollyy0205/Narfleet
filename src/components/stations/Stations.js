@@ -1,11 +1,13 @@
-import StationBanner from "./station-banner/StationBanner"
+import StationsBanner from "./stations-banner/StationsBanner"
 import StationsContent from "./stations-content/StationsContent"
+import StationExplore from "./stations-explore/StatationsExplore"
 
 const Stations = () => {
     return (
         <div>
-            <StationBanner />
+            <StationsBanner />
             <StationsContent />
+            <StationExplore />
         </div>
     )
 }
