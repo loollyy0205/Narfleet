@@ -1,8 +1,6 @@
 import './NarfleetTeam.css'
-import ocean from '../../../../assets/Photos/03-home-backdrop-ocean.png'
-import sirDeo from '../../../../assets/Photos/sir-deo.png'
-import sirDeo2 from '../../../../assets/Photos/shadow-sir-deo.png'
-import sirDeo3 from '../../../../assets/Photos/soft-light.png'
+import ocean from '../../../../assets/Photos/03-home-backdrop-ocean2.png'
+import msilogo from '../../../../assets/Photos/msi-logo.png'
 
 const NarfleetTeam = () => {
     return (
@@ -15,23 +13,57 @@ const NarfleetTeam = () => {
                     <div className="green-container">
                         <div className="green-line"></div>
                     </div>
-                    <p className="Optima-B">THE NARFLEET TEAM</p>
+                    <p className="Optima-B">NARFLEET TWG AND ADVISORY BOARD</p>
 
-                    <div className="team-images-box">
+                    {/* <div className="team-images-box">
                         <div className="team-images">
                             <img src={sirDeo} alt="Sir Deo" />
                             <img src={sirDeo2} alt="Sir Deo" />
                             <img src={sirDeo2} alt="Sir Deo" />
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div className="team-softlight">
+                    {/* <div className="team-softlight">
                         <img className="deo" src={sirDeo3} alt="Sir Deo" />
+                    </div> */}
+
+                    <div className="title-logos">
+                        <div className="logo-sub">
+                            <img src={msilogo} alt="sample"/>
+                            <img src={msilogo} alt="sample"/>
+                            <img src={msilogo} alt="sample"/>
+                            <img src={msilogo} alt="sample"/>
+                            <img src={msilogo} alt="sample"/>
+                        </div>
                     </div>
 
                     <div className="team-title">
-                        <span className="Avenir-black">Dr. Deo Florence Onda</span>
-                        <span className="Avenir-light" >Project Head</span>
+                        <div className="team-title-sub">
+                            <div className="mid-subtitle">
+                                <span className="Avenir-black">UP MSI</span>
+                                <span className="Avenir-light top-4" >Lead Agency</span>
+                            </div>
+                            
+                            <div className="mid-subtitle">
+                                <span className="Avenir-black">NARFleet-CMO</span>
+                                <span className="Avenir-light top-4" >Admin Department</span>
+                            </div>
+                            <div className="mid-subtitle">
+                                <span className="Avenir-black">UP Visayas</span>
+                                <span className="Avenir-light top-4" >Partner University</span>
+                            </div>
+
+                            <div className="mid-subtitle">
+                                <span className="Avenir-black">MSU-IIT</span>
+                                <span className="Avenir-light top-4" >Partner University</span>
+                            </div>
+                            
+                            <div className="mid-subtitle">
+                                <span className="Avenir-black">Bicol University</span>
+                                <span className="Avenir-light top-4" >Partner University</span>
+                            </div>
+                        </div>
+
                     </div>
 
 
