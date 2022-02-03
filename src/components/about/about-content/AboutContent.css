@@ -46,7 +46,7 @@
     height: 14.860vw;
     margin-bottom: 6.515vw;
     background-color: #FFFFFF1A;
-    border-radius: 1.537vw;
+    border-radius: 0.256vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,11 +74,11 @@
 }
 
 .rec.rec-arrow-left {
-    margin-left: -2.342vw;
+    margin-left: -3.8vw;
 }
 
 .rec.rec-arrow-right {
-    margin-right: -2.342vw;
+    margin-right: -3.342vw;
 }
 
 .rec.rec-arrow:hover {
@@ -91,4 +91,44 @@
 
 .rec.rec-item-wrapper {
     width: 24.231vw !important;
+}
+
+@media (min-width:1500px) {
+    .rec.rec-arrow-left {
+        margin-left: -3.4vw;
+    }
+    
+    .rec.rec-arrow-right {
+        margin-right: -3vw;
+    }
+}
+
+@media (min-width:1700px) {
+    .rec.rec-arrow-left {
+        margin-left: -3vw;
+    }
+    
+    .rec.rec-arrow-right {
+        margin-right: -2.6vw;
+    }
+}
+
+@media (min-width:1920px) {
+    .rec.rec-arrow-left {
+        margin-left: -2.4vw;
+    }
+    
+    .rec.rec-arrow-right {
+        margin-right: -2vw;
+    }
+}
+
+@media (min-width:2300px) {
+    .rec.rec-arrow-left {
+        margin-left: -2vw;
+    }
+    
+    .rec.rec-arrow-right {
+        margin-right: -1.6vw;
+    }
 }
