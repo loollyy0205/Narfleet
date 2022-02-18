@@ -7,8 +7,8 @@
 }
 
 .programs-content {
-    width: 88vw;
-    height: 28vw;
+    width: 82vw;
+    height: 22.5vw;
     margin-top: 3.87vw;
     background-color: #FFFFFF1A;
     border-radius: 0.21vw;
@@ -17,16 +17,18 @@
 }
 
 .image-container {
-    margin: 3.52vw 0.99vw 3.52vw 3.52vw;
-    width: 35.211vw;
-    height: 20.42vw;
+    margin: 1.5vw 0.99vw 2vw 2vw;
+    width: 34vw;
+    height: 19vw;
     padding: 0.352vw 0vw;
+    overflow: hidden;
 }
 
 .image-container img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 0.21vw;
     transition: transform .5s ease;
 }
 
@@ -44,13 +46,13 @@
 
 p.title-content-programs {
     line-height: 1.55vw;
-    width: 40.85vw;
+    width: 43vw;
 }
 
 .program-details p{
     line-height: 1.76vw;
     letter-spacing: 0.07vw;
-    margin-top: 2.82vw;
+    margin-top: 2.2vw;
 }
 
 .program-details p:hover{
@@ -80,10 +82,10 @@ p.title-content-programs {
 
 .learn-more {
     position: absolute;
-    font-size: 0.951vw;
+    font-size: 0.75vw;
     display: flex;
-    bottom: 2.25vw;
-    right: 3.52vw;
+    bottom: 1.5vw;
+    right: 3.7vw;
 }
 
 .learn-more:hover {

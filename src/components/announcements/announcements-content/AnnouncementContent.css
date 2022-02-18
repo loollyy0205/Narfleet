@@ -11,11 +11,11 @@
 
 .about-card-1{
     background-color: #FFFFFF1A;
-    padding: 3.521vw;
+    padding:  2vw 3.5vw 3.5vw 2.2vw;
     border-radius: 0.352vw;
     display: flex;
-    width: 80.99vw;
-    height: 20.07vw;
+    width: 76vw;
+    height: 18.8vw;
     flex-direction: column;
     /*justify-content: center;
     align-items: center;*/
@@ -23,12 +23,12 @@
     font-weight: 100;
     line-height: 1.5;
     letter-spacing: 0.022vw;
-    margin-bottom: 4.92vw;
+    margin-bottom: 4.5vw;
     
 }
 
 .about-card-1:first-child{
-    margin-top: 9.85vw;
+    margin-top: 8.5vw;
     
 }
 .about-card-1:last-child{
@@ -41,7 +41,7 @@
     
 }
 
-.about-card-1 p:nth-child(1){
+ .about-card-1 p:nth-child(1){
     font-size: 1.464vw;
     font-weight: 100;
     margin-top: 1.057vw;
@@ -52,24 +52,25 @@
 }
 
 .about-card-1 p:nth-child(4){
-    font-size: 0.99vw;
+    font-size: 0.8vw;
     font-weight: 100;
     position: relative;
     top: -0.352vw;
-    left: 35.92vw;
-}
+    float: right;
+    /* left: 36vw; */
+}  
 
 .about-card-text{
     width: 53%;
     position: relative;
-    left: 47%;
+    left: 48%;
     
 }
 
 
 .announcement-card-label{
     height: 1.976vw;
-    width: 11.346vw;
+    width: 11.946vw;
     border-radius: 1.098vw 1.098vw 0 1.098vw;
     font-size: 0.951vw;
     background-color: #5A7634;
@@ -114,10 +115,12 @@
 }
 
 .announcement-image {
-    width: 35.211vw;
+    width: 33.211vw;
     height: 20.42vw;
     position: absolute;
-    padding: 0.352vw 0vw
+    padding: 0vw 0vw;
+  
+    
 }
 
 .announcement-image img {
@@ -125,6 +128,7 @@
     height: 100%;
     object-fit: cover;
     transition: transform .5s ease;
+    border-radius: 0.2vw;
 }
 
 .announcement-link{

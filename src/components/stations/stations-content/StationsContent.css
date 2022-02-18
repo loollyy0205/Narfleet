@@ -1,26 +1,29 @@
+
+
 .station-container{
-    height: 800px;
+    height: 44.27vw;
     overflow: hidden;
-    top: 200px;
+    top: 10vw;
     position: relative;
-    left: 120px;
-    margin-bottom: 300px;
+    left: 4.22vw;
+    margin-bottom: 15vw;
 }
 
 .aboutCard{
-  height: 100%;
+  height: 44.27vw;
   width: 100%;
   overflow-y: scroll;
-  padding-right: 1000px; /* Increase/decrease this value for cross-browser compatibility */
+  padding-right: 711.46px; /* Increase/decrease this value for cross-browser compatibility */
   box-sizing: content-box; /* So the width will be 100% + 17px */
   overflow-x: hidden;
+  z-index: 99;
 }
 
 .aboutContent-card2-1 {
-    height: 250px;
-    border-radius: 5px;
-    margin-top: 25px;
-    width: 950px;
+    height: 13.35vw;
+    border-radius: 0.25vw;
+    margin-top: 1.25vw;
+    width: 50.6vw;
     background-color: #FFFFFF1A;
     display: flex;
     flex-direction: column;
@@ -35,11 +38,11 @@
 }
 
 .padding-about-card2 p{
-  letter-spacing: 0.15px;
+  letter-spacing: 0.0078vw;
 }
 
 .padding-about-card2 p:nth-child(1){
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 .padding-about-card2 p:nth-child(1):hover{
@@ -48,34 +51,35 @@
 
 .padding-about-card2 p ul:nth-child(1){
     list-style-type: disc;
-    line-height: 20px;
+    line-height: 1vw;
     font-weight: 500;
 }
 
 .padding-about-card2 p span{
-    font-size: 19px;
+    font-size: 0.95vw;
 }
 
 
 .padding-about-card2 p:nth-child(2){
-    margin-top: 15px;
-    font-size: 19px;
+    margin-top: 0.75vw;
+    font-size: 0.98vw;
     text-align: justify;
-    line-height: 28px;
+    line-height: 1.4vw;
     color: #f8f8ff;
     font-weight: 100;
 }
 
 .line{
-    border: 1px solid #5A7634;
-     width: 950px;
-    margin-top: 50px;
+    border: 0.03vw solid #5A7634;
+    width: 50.46vw;
+    margin-top: 2.5vw;
 }
 
 .map{
-    width: 500px;
-    height: 900px;
+    width: 31.63vw;
+    height: 45.68vw;
     position:  absolute;
-    left: 70rem;
-    top: -100px;
+    left: 54.82vw;
+    top: -4.22vw;
+    z-index: 99999;
 }

@@ -8,7 +8,7 @@ const AboutContent2 = () => {
         <div className="station-container">
             <div className=" line"></div>
             <img src={map} alt="map"className="map"/>
-            <div className='aboutCard'>
+            <div className="aboutCard">
              {StationsCard.map((item, index) =>{
                  return(
                 <div className='aboutContent-card2-1'>
