@@ -51,8 +51,14 @@
 }
 
 .next-icon {
+<<<<<<< HEAD
     font-size: 2.855vw;
     margin-bottom: -0.878vw;
+=======
+   font-size: 2.8vw;
+   position: relative;
+   top: -0.07vw;
+>>>>>>> 7bbb3ea340fb77da281f1c5def3e0cee4142d448
 }
 
 .explore-next-content {
