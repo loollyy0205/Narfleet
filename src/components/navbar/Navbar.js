@@ -23,12 +23,13 @@ const Navbar = () => {
                     <p>PROGRAMS</p>
                 </NavLink>
 
-                <NavLink className="nav-text5" exact to="/stations" style={{ textDecoration: 'none' }} activeClassName="active">
-                    <p>STATIONS</p>
-                </NavLink>
-                <NavLink className="nav-text6" exact to="/gallery" style={{ textDecoration: 'none' }} activeClassName="active">
-                    <p>GALLERY</p>
-                </NavLink>
+                {/* <NavLink className="nav-text5" exact to="/stations" style={{ textDecoration: 'none' }} activeClassName="active"> */}
+                    <p className="nav-text5">STATIONS</p>
+                {/* </NavLink> */}
+
+                {/* <NavLink className="nav-text6" exact to="/gallery" style={{ textDecoration: 'none' }} activeClassName="active"> */}
+                    <p className="nav-text6">GALLERY</p>
+                {/* </NavLink> */}
                 <NavLink className="nav-text7" exact to="/announcements" style={{ textDecoration: 'none' }} activeClassName="active">
                     <p>ANNOUNCEMENTS</p>
                 </NavLink>
