@@ -1,6 +1,7 @@
 .explore-next2 {
-    height: 413px;
-    border-radius: 0 450px 0 0;
+    margin-top: 49.048vw;
+    height: 21.522vw;
+    border-radius: 0 23.426vw 0 0;
     background-color: rgba(10, 80, 95, .3);
     display: flex;
     flex-direction: row;
@@ -9,7 +10,7 @@
 }
 
 .explore-box2 {
-    width: 1307px;
+    width: 68.081vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -17,8 +18,8 @@
 }
 
 .explore-next2 img {
-    height: 299px;
-    width: 535px;
+    height: 15.666vw;
+    width: 27.891vw;
     object-fit: cover;
     background-color: #5A7634;
 }
@@ -30,11 +31,11 @@
 }
 .explore-next2 .bg-img2{
     position: absolute;
-    margin-right: 535px;
+    margin-right: 27.891vw;
     z-index: -1;
-    margin-top: -150px;
-    height: 299px;
-    width: 535px;
+    margin-top: -7.833vw;
+    height: 15.592vw;
+    width: 27.891vw;
     background-color: #5A7634;
 }
 
@@ -43,97 +44,26 @@
 }
 
 .explore-next2 img:hover {
-    margin-right: 9px;
-    margin-bottom: 15px;
+    margin-right: 0.439vw;
+    margin-bottom: 0.805vw;
 }
 
 
 
 .navi-title2 {
     color: white;
-    font-size: 31px;
-    margin-left: 94px;
+    font-size: 1.610vw;
+    margin-left: 4.904vw;
 }
 
 .next-icon2 {
-    font-size: 50px;
-    margin-bottom: -15px;
+    font-size: 2.635vw;
+    margin-bottom: -0.805vw;
 }
 
 .explore-next-content2 {
     line-height: 1.4;
-    width: 678px;
-    margin-left: 94px;
-    margin-top: 28px;
-}
-
-@media (min-width: 768px) and (max-width: 1364px){
-    .explore-next2 {
-        height: 413px;
-        border-radius: 0 450px 0 0;
-        background-color: rgba(10, 80, 95, .3);
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-top: 400px;
-    }
-    
-    .explore-box2 {
-        width: 1307px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .explore-next2 img {
-        height: 299px;
-        width: 535px;
-        object-fit: cover;
-        background-color: #5A7634;
-    }
-    
-    .bg-cont2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .explore-next2 .bg-img2{
-        position: absolute;
-        margin-right: 535px;
-        z-index: -1;
-        margin-top: -150px;
-        height: 299px;
-        width: 535px;
-        background-color: #5A7634;
-    }
-    
-    .explore-next2 img{
-        transition: 0.3s;
-    }
-    
-    .explore-next2 img:hover {
-        margin-right: 9px;
-        margin-bottom: 15px;
-    }
-    
-    
-    
-    .navi-title2 {
-        color: white;
-        font-size: 31px;
-        margin-left: 94px;
-    }
-    
-    .next-icon2 {
-        font-size: 50px;
-        margin-bottom: -15px;
-    }
-    
-    .explore-next-content2 {
-        line-height: 1.4;
-        width: 678px;
-        margin-left: 94px;
-    }
+    width: 35.285vw;
+    margin-left: 4.904vw;
+    margin-top: 1.464vw;
 }

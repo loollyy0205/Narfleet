@@ -45,7 +45,7 @@ const FleetContent3 = () => {
                         <div className="text-overlay4">TRACK</div>  
                     </div>
                 </div> 
-                <div className="fleet-container4">
+                {/* <div className="fleet-container4">
                     <div className="fleet-img4">
                         <NavLink exact to="/the-fleet/fleet-subpage"  activeClassName="active">
                             <img src={ocean} alt="Ocean" style={{top:'20px'}}/>
@@ -62,7 +62,7 @@ const FleetContent3 = () => {
                         </NavLink>
                         <div className="text-overlay4">TRACK</div>  
                     </div>
-                </div>               
+                </div>                */}
             </div>
             <div className="fleet-card4">
                 <div className="fleet-context4">
@@ -73,10 +73,10 @@ const FleetContent3 = () => {
                     <p className="Avenir-black">RV KASARINLAN</p>
                     <p className="Avenir-light">Manila Bay</p>
                 </div>
-                <div className="fleet-context4">
+                {/* <div className="fleet-context4">
                     <p className="Avenir-black">RV KASARINLAN</p>
                     <p className="Avenir-light">Manila Bay</p>
-                </div>
+                </div> */}
             </div>
             <div className="fleet-marg"></div>
         </div>

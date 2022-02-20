@@ -11,7 +11,7 @@ const Fleet = () => {
            <FleetBanner2 />
            <FleetContent2 />
            <ProgramsContent2 />
-           <NarfleetTeam2 />
+           {/* <NarfleetTeam2 /> */}
            <FleetContent3 />
            <ExploreNext3 />
         </div>

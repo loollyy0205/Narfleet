@@ -1,5 +1,5 @@
 .fleet-content4 {
-    margin: 60px 0px 20px 0px;
+    margin: 110px 0px 20px 0px;
     height: 443px;
     width: 100%;
     display: flex;
@@ -15,6 +15,7 @@
 
 .fleet-img4 {
     height: 100%;
+    width: 443px;
     position: relative;
     text-align: center;
     color: white;
@@ -194,7 +195,7 @@
 }
 
 
-@media (min-width: 1366px) {
+/* @media (min-width: 1366px) {
     .fleet-content4 {
         height: 346px;
         top: 204px;
@@ -276,13 +277,10 @@
 
 @media (min-width: 1920px) {
     .fleet-content4 {
-        height: 443px;
-        top: 261px;
     }
     
    
     .fleet-img4 {
-        width: 443px;
     }
     
     .overlay4{
@@ -466,4 +464,4 @@
         height: 80vh;
         margin-bottom: 80px;
      }
-    }
+    } */

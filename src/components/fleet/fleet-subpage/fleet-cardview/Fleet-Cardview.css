@@ -1,7 +1,7 @@
 .programs-container-2 {
     display: grid;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 20px;
     position: relative;
 }
 
@@ -128,7 +128,7 @@
     cursor: pointer;
 }
 
-@media (min-width: 1600px) and (max-width: 1919px){
+/* @media (min-width: 1600px) and (max-width: 1919px){
     .programs-container-2 {
         margin-top: 200px;
     }
@@ -253,7 +253,7 @@
         font-family: 'Avenir Medium';
         cursor: pointer;
     }
-}
+} */
 
 /*
 @media (min-width: 1365)  and (max-width: 1919px){
