@@ -31,9 +31,9 @@ const NarfleetTeam = () => {
                         <div className="logo-sub">
                             <img src={msilogo} alt="sample"/>
                             <img src={msilogo} alt="sample"/>
-                            <img src={msilogo} alt="sample"/>
-                            <img src={msilogo} alt="sample"/>
-                            <img src={msilogo} alt="sample"/>
+                            <img src="https://res.cloudinary.com/upmsi/image/upload/v1645600719/Narfleet/Home/1200px-UP_Visayas_Logo.svg_wtxdln.png" alt="sample"/>
+                            <img src="https://res.cloudinary.com/upmsi/image/upload/v1645600717/Narfleet/Home/seal-02_mn6oyp.png" alt="sample"/>
+                            <img src= "https://res.cloudinary.com/upmsi/image/upload/v1645600718/Narfleet/Home/Bicol_University_np3slf.png" alt="sample"/>
                         </div>
                     </div>
 
