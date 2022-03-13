@@ -2,10 +2,10 @@
 
 .station-container{
     height: 44.27vw;
-    overflow: hidden;
     top: 10vw;
     position: relative;
-    left: 4.22vw;
+    /* left: 4.22vw; */
+    margin-left: 4.22vw;
     margin-bottom: 15vw;
 }
 
@@ -13,13 +13,12 @@
   height: 44.27vw;
   width: 100%;
   overflow-y: scroll;
-  padding-right: 711.46px; /* Increase/decrease this value for cross-browser compatibility */
+  /*padding-right: 711.46px;  Increase/decrease this value for cross-browser compatibility */
   box-sizing: content-box; /* So the width will be 100% + 17px */
-  overflow-x: hidden;
   z-index: 99;
 }
 
-.aboutContent-card2-1 {
+.aboutContent-card2-1{
     height: 13.35vw;
     border-radius: 0.25vw;
     margin-top: 1.25vw;
@@ -31,7 +30,7 @@
     align-items: center;
 }
 
-.padding-about-card2 {
+.padding-about-card2{
     width: 88%;
     text-align: left;
     line-height: 1.4;
@@ -81,5 +80,306 @@
     position:  absolute;
     left: 54.82vw;
     top: -4.22vw;
-    z-index: 99999;
+    z-index: 1;
 }
+
+
+.aboutMap-card{
+    background-color: #333333;
+    opacity: 0.6;
+}
+
+ .aboutMap-card:nth-child(1){
+     position:absolute;
+    height: 2.9vw;
+    border-radius: 4vw;
+    margin-top: 1vw;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 54vw;
+    bottom: 35vw;
+    z-index: 88888;
+   
+}
+
+
+
+
+
+.aboutMap-card:nth-child(2){
+    position:absolute;
+   height: 2.9vw;
+   border-radius: 4vw;
+   margin-top: 1vw;
+   width: 10vw; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   left: 55vw;
+   bottom: 30vw;
+   z-index: 88888;
+  
+}
+
+.aboutMap-card:nth-child(3){
+    position:absolute;
+   height: 2.9vw;
+   border-radius: 4vw;
+   margin-top: 1vw;
+   width: 10vw; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   left: 70vw;
+   bottom: 29vw;
+   z-index: 88888;
+  
+}
+
+.aboutMap-card:nth-child(4){
+    position:absolute;
+   height:3.5vw;
+   border-radius: 4vw;
+   margin-top: 1vw;
+   width: 10vw; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   left: 57.2vw;
+   bottom: 25vw;
+   z-index: 88888;
+  
+}
+
+.aboutMap-card:nth-child(5){
+   position:absolute;
+   height:2.9vw;
+   border-radius: 4vw;
+   margin-top: 1vw;
+   width: 10vw; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   left: 80vw;
+   bottom: 25vw;
+   z-index: 88888;
+  
+}
+
+.aboutMap-card:nth-child(6){
+    position:absolute;
+    height:2.9vw;
+    border-radius: 4vw;
+    margin-top: 1vw;
+    width: 10vw; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 75vw;
+    bottom: 18.5vw;
+    z-index: 88888;
+   
+ }
+
+ .aboutMap-card:nth-child(7){
+    position:absolute;
+    height:2.9vw;
+    border-radius: 4vw;
+    margin-top: 1vw;
+    width: 11vw; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 81vw;
+    bottom: 12vw;
+    z-index: 88888;
+   
+ }
+
+.aboutMap-card p:nth-child(1){
+    font-size: 1vw;
+}
+
+
+.aboutMap-card p:nth-child(2){
+    color: white;
+    margin-top: 0.1vw;
+    font-size: 0.85vw;
+}
+
+.pin p:nth-child(1){
+    position:absolute;
+    height:3.5vw;
+    border-radius: 4vw;
+    margin-top: 1vw;
+    width: 10vw; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 57.2vw;
+    bottom: 25vw;
+    z-index: 99999;
+   
+}
+
+.aboutMap-pin{
+    position: absolute;
+    background-color: white;
+    border-radius: 50% 50% 50% 0;
+    border: 0.3vw solid #fff;
+    width: 0.1vw;
+    height: 0.1vw;
+    transform: rotate(-45deg); 
+    z-index: 999999;
+}
+
+.aboutMap-pin:nth-child(1){
+    left: 64.8vw;
+    bottom: 36vw;
+}
+
+.aboutMap-pin:nth-child(2){
+    left: 65.8vw;
+    bottom: 31.3vw;
+}
+.aboutMap-pin:nth-child(3){
+    left: 68vw;
+    bottom: 30.5vw;
+}
+.aboutMap-pin:nth-child(4){
+    left: 68vw;
+    bottom: 27.6vw;
+}
+.aboutMap-pin:nth-child(5){
+    left: 78.5vw;
+    bottom: 26vw;
+}
+.aboutMap-pin:nth-child(6){
+    left: 73.7vw;
+    bottom:19.5vw;
+}
+.aboutMap-pin:nth-child(7){
+    left: 78.5vw;
+    bottom:13vw;
+}
+
+.aboutMap-card2:nth-child(1){
+    position:absolute;
+   height: 2.9vw;
+   border-radius: 4vw;
+   margin-top: 1vw;
+   width: 10vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   left: 54vw;
+   bottom: 35vw;
+   z-index: 99999; 
+}
+
+.aboutMap-card2:nth-child(2){
+    position:absolute;
+   height: 2.9vw;
+   border-radius: 4vw;
+   margin-top: 1vw;
+   width: 10vw; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   left: 55vw;
+   bottom: 30vw;
+   z-index: 99999;
+  
+}
+
+.aboutMap-card2:nth-child(3){
+    position:absolute;
+   height: 2.9vw;
+   border-radius: 4vw;
+   margin-top: 1vw;
+   width: 10vw; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   left: 70vw;
+   bottom: 29vw;
+   z-index: 99999;
+  
+}
+
+.aboutMap-card2:nth-child(4){
+    position:absolute;
+   height:3.5vw;
+   border-radius: 4vw;
+   margin-top: 1vw;
+   width: 10vw; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   left: 57.2vw;
+   bottom: 25vw;
+   z-index: 99999;
+  
+}
+
+.aboutMap-card2:nth-child(5){
+   position:absolute;
+   height:2.9vw;
+   border-radius: 4vw;
+   margin-top: 1vw;
+   width: 10vw; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   left: 80vw;
+   bottom: 25vw;
+   z-index: 99999;
+  
+}
+
+.aboutMap-card2:nth-child(6){
+    position:absolute;
+    height:2.9vw;
+    border-radius: 4vw;
+    margin-top: 1vw;
+    width: 10vw; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 75vw;
+    bottom: 18.5vw;
+    z-index: 99999;
+   
+ }
+
+ .aboutMap-card2:nth-child(7){
+    position:absolute;
+    height:2.9vw;
+    border-radius: 4vw;
+    margin-top: 1vw;
+    width: 11vw; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 81vw;
+    bottom: 12vw;
+    z-index: 99999;
+   
+ }

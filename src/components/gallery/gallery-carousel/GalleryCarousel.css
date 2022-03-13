@@ -101,7 +101,7 @@
 .carousel-card-1 img {
     height: 17.48vw;
     border-radius: 0.35vw;
-    width: 24.28vw;;
+    width: 23.3vw;;
     object-fit: cover;
     -webkit-user-drag: none;
     -khtml-user-drag: none;
@@ -163,4 +163,41 @@
 
   .slider{
     margin-top: 17.32vw;
+  }
+
+  .slider-img img{
+    height: 23vw;
+    width: 38.7vw;
+  }
+
+  .left-shadow{
+    color: white;
+    position:absolute;
+    height:25vw;
+    margin-top: 1vw;
+    width: 30vw; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0vw;
+    bottom: 14vw;
+    z-index: 88888;
+    background: linear-gradient(90deg, black, transparent);
+  }
+
+  .right-shadow{
+    color: white;
+    position:absolute;
+    height:25vw;
+    margin-top: 1vw;
+    width: 25vw; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 0vw;
+    bottom: 14vw;
+    z-index: 88888;
+    background: linear-gradient(270deg, black, transparent);
   }

@@ -1,55 +1,57 @@
 import './GalleryCarousel.css'
 import Carousel from 'react-elastic-carousel';
 import { Carousel1, Carousel2, Carousel3 } from './GalleryCarouselModel'
-// import Slider from "react-slick";
+import Slider from "react-slick";
 
 const GalleryCarousel = () => {
 
-  // const photos = [
-  //   {
-  //     name: "Photo 1",
-  //     url: "https://media.istockphoto.com/photos/the-first-part-of-any-design-picture-id1363890890?k=20&m=1363890890&s=612x612&w=0&h=fSPUwO36EA-6eQNOuV5rE8-eC33hqB2hA-931mo6-n4="
-  //   },
-  //   {
-  //     name: "Photo 2",
-  //     url: "https://media.istockphoto.com/photos/businessman-signing-digital-contract-on-tablet-using-stylus-pen-picture-id1269145054?k=20&m=1269145054&s=612x612&w=0&h=G08IDhKFJPYcaocD03NqIe9Z4MtTibG8GifsLjxIAnM="
-  //   },
-  //   {
-  //     name: "Photo 3",
-  //     url: "https://media.istockphoto.com/photos/architect-man-picture-id1257151480?k=20&m=1257151480&s=612x612&w=0&h=FMmiQQW33qULohHodShTSBedPJSQbOu83wY8DwnVOw0="
-  //   },
-  //   {
-  //     name: "Photo 4",
-  //     url: "https://media.istockphoto.com/photos/close-up-of-lady-putting-a-signature-picture-id1190906607?k=20&m=1190906607&s=612x612&w=0&h=cpIyTLoAqJx-5yazTne-KFmTOFQJScckNpWY4m1BQn4="
-  //   }
-  // ]
+  const photos = [
+    {
+      name: "Photo 1",
+      url: "https://media.istockphoto.com/photos/the-first-part-of-any-design-picture-id1363890890?k=20&m=1363890890&s=612x612&w=0&h=fSPUwO36EA-6eQNOuV5rE8-eC33hqB2hA-931mo6-n4="
+    },
+    {
+      name: "Photo 2",
+      url: "https://media.istockphoto.com/photos/businessman-signing-digital-contract-on-tablet-using-stylus-pen-picture-id1269145054?k=20&m=1269145054&s=612x612&w=0&h=G08IDhKFJPYcaocD03NqIe9Z4MtTibG8GifsLjxIAnM="
+    },
+    {
+      name: "Photo 3",
+      url: "https://media.istockphoto.com/photos/architect-man-picture-id1257151480?k=20&m=1257151480&s=612x612&w=0&h=FMmiQQW33qULohHodShTSBedPJSQbOu83wY8DwnVOw0="
+    },
+    {
+      name: "Photo 4",
+      url: "https://media.istockphoto.com/photos/close-up-of-lady-putting-a-signature-picture-id1190906607?k=20&m=1190906607&s=612x612&w=0&h=cpIyTLoAqJx-5yazTne-KFmTOFQJScckNpWY4m1BQn4="
+    }
+  ]
 
   const breakPoints = [
-    { width: 1400, itemsToShow: 3.43}
+    { width: 900, itemsToShow: 3.58}
   ];
 
-  // const settings = {
-  //   centerMode: true,
-  //   infinite: true,
-  //   centerPadding: "578px",
-  //   slidesToShow: 1,
-  //   speed: 300
-  // };
+  const settings = {
+    centerMode: true,
+    infinite: true,
+    centerPadding: "434px",
+    slidesToShow: 1,
+    speed: 400
+  };
 
 
     return (
         <div>
           <div className="slider">
-              {/* <Slider {...settings}>
+            <div className="left-shadow"></div>
+            <div className="right-shadow"></div>
+              <Slider {...settings}>
               {
-                photos.map((photos) => {
+                Carousel1.map((item, index) => {
                   return(
                   <div className="slider-img"> 
-                    <img width="740px" height="450px" src={photos.url}/> 
+                    <img src={item.photo}/> 
                   </div>
                   )
                 })}
-            </Slider> */}
+            </Slider>
            </div>
             <div className='gallery-container-1'>
                 <div className="gallery-content-1">
